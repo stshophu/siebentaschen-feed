@@ -1,1 +1,42 @@
+name: Update Siebentaschen Product Feed
 
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab to test
+
+permissions:
+  contents: write
+
+concurrency:
+  group: siebentaschen-feed-export
+  cancel-in-progress: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run feed export
+        env:
+          SHOPIFY_STORE_DOMAIN: ${{ secrets.SHOPIFY_STORE_DOMAIN }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+        run: python3 siebentaschen_feed_export.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add siebentaschen_product_feed.csv
+          git diff --staged --quiet || git commit -m "Update product feed"
+          git push
