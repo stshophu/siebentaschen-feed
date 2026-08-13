@@ -68,7 +68,19 @@ query Products($cursor: String) {
         vendor
         productType
         featuredMedia { preview { image { url } } }
-        googleCategory: metafield(namespace: "custom", key: "google_product_category") {
+        filterCategory: metafield(namespace: "filter", key: "category") {
+          value
+        }
+        filterSubcategory: metafield(namespace: "filter", key: "subcategory") {
+          value
+        }
+        rewixSubcategory: metafield(namespace: "rewix", key: "subcategory") {
+          value
+        }
+        googleCategory: metafield(namespace: "mm-google-shopping", key: "google_product_category") {
+          value
+        }
+        legacyGoogleCategory: metafield(namespace: "custom", key: "google_product_category") {
           value
         }
         subCategory: metafield(namespace: "custom", key: "category") {
@@ -115,28 +127,73 @@ def fetch_page(cursor):
     return data["data"]["products"]
 
 
-def derive_category_subcategory(google_cat_value, custom_cat_value, product_type):
-    """
-    google_cat_value looks like "Apparel & Accessories > Clothing > Dresses"
-    custom_cat_value looks like "Dresses" (a clean leaf-level subcategory)
+GENERIC_TERMS = {
+    "clothing",
+    "apparel",
+    "abbigliamento",
+    "accessories",
+    "accessori",
+    "misc",
+    "other",
+    "def",
+    "n/a",
+    "",
+}
 
-    Falls back to product_type when metafields are missing, so every row
-    still gets a usable value instead of an empty cell.
+
+def _usable(value):
+    """A value is usable only if it names a real product type.
+
+    "Clothing" is not a category — it's the absence of one. Treating it as a
+    value is what produced 1,500+ feed rows reading Clothing/Clothing/Clothing
+    and left every downstream channel to guess.
+    """
+    return bool(value) and str(value).strip().lower() not in GENERIC_TERMS
+
+
+def derive_category_subcategory(
+    filter_cat,
+    filter_subcat,
+    rewix_subcat,
+    google_cat_value,
+    custom_cat_value,
+    product_type,
+):
+    """Resolve Kategorie / Subkategorie for one product.
+
+    filter.category / filter.subcategory are the maintained, normalised source
+    of truth on every product ("Coats", "Blazers", "Knitwear"). They are read
+    first. Everything after them is a fallback for products that predate the
+    metafield backfill.
+
+    Previously this function read custom.category and
+    custom.google_product_category — neither of which exists on these products
+    (the Google category lives in the mm-google-shopping namespace) — so both
+    lookups returned null and every row fell through to product_type, which is
+    "Clothing" for 54% of the catalogue.
     """
     segments = []
-    if google_cat_value:
-        segments = [s.strip() for s in google_cat_value.split(">")]
+    if google_cat_value and ">" in str(google_cat_value):
+        segments = [s.strip() for s in str(google_cat_value).split(">")]
 
-    if len(segments) >= 2:
+    # ── Kategorie (top level) ────────────────────────────────────────────────
+    if _usable(filter_cat):
+        category = filter_cat
+    elif len(segments) >= 2:
         category = segments[1]
     elif segments:
         category = segments[0]
     else:
-        category = product_type
+        category = filter_cat or product_type
 
-    if custom_cat_value:
+    # ── Subkategorie (leaf level) ───────────────────────────────────────────
+    if _usable(filter_subcat):
+        subcategory = filter_subcat
+    elif _usable(rewix_subcat):
+        subcategory = rewix_subcat
+    elif _usable(custom_cat_value):
         subcategory = custom_cat_value
-    elif segments:
+    elif segments and _usable(segments[-1]):
         subcategory = segments[-1]
     else:
         subcategory = product_type
@@ -193,10 +250,19 @@ def main():
                 image_url = (preview.get("image") or {}).get("url", "")
                 product_url = STOREFRONT_BASE_URL + handle
 
-                google_cat_value = (p.get("googleCategory") or {}).get("value")
+                filter_cat       = (p.get("filterCategory") or {}).get("value")
+                filter_subcat    = (p.get("filterSubcategory") or {}).get("value")
+                rewix_subcat     = (p.get("rewixSubcategory") or {}).get("value")
+                google_cat_value = (p.get("googleCategory") or {}).get("value") \
+                    or (p.get("legacyGoogleCategory") or {}).get("value")
                 custom_cat_value = (p.get("subCategory") or {}).get("value")
                 category, subcategory = derive_category_subcategory(
-                    google_cat_value, custom_cat_value, p["productType"]
+                    filter_cat,
+                    filter_subcat,
+                    rewix_subcat,
+                    google_cat_value,
+                    custom_cat_value,
+                    p["productType"],
                 )
 
                 for vedge in p["variants"]["edges"]:
