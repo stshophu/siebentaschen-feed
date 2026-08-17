@@ -189,12 +189,145 @@ COLOR_PL = {
     "multicolour": "wielokolorowy", "multicolor": "wielokolorowy",
 }
 
+# ---------------------------------------------------------------------------
+# Normalisation
+# ---------------------------------------------------------------------------
+# Different sources write different words for the same thing: the CSV feed says
+# "Knitwear", a supplier sync writes "Sweater", another writes "Sweaters".
+# Everything here resolves to the vocabulary used in GLAMI_CATEGORY above.
+TYPE_ALIASES = {
+    "jacket": "Jackets", "jackets": "Jackets",
+    "coat": "Coats", "coats": "Coats",
+    "parka": "Coats", "parkas": "Coats",
+    "down jacket": "Down Jackets",
+    "sweater": "Knitwear", "sweaters": "Knitwear", "knitwear": "Knitwear",
+    "cardigan": "Knitwear", "cardigans": "Knitwear",
+    "pullover": "Knitwear", "jumper": "Knitwear",
+    "sweatshirt": "Sweatshirts", "sweatshirts": "Sweatshirts",
+    "hoodie": "Sweatshirts", "hoodies": "Sweatshirts",
+    "t-shirt": "T-Shirts", "t-shirts": "T-Shirts", "tshirt": "T-Shirts",
+    "tee": "T-Shirts", "top": "Tops", "tops": "Tops",
+    "polo": "Polo Shirts", "polo shirt": "Polo Shirts", "polo shirts": "Polo Shirts",
+    "shirt": "Shirts", "shirts": "Shirts",
+    "blouse": "Shirts", "blouses": "Shirts",
+    "pants": "Trousers", "pant": "Trousers", "trouser": "Trousers",
+    "trousers": "Trousers", "sweatpants": "Tracksuits",
+    "jean": "Jeans", "jeans": "Jeans", "denim": "Jeans",
+    "short": "Shorts", "shorts": "Shorts",
+    "skirt": "Skirts", "skirts": "Skirts",
+    "dress": "Dresses", "dresses": "Dresses",
+    "jumpsuit": "Jumpsuits", "jumpsuits": "Jumpsuits",
+    "blazer": "Blazers", "blazers": "Blazers",
+    "formal jacket": "Blazers", "formal jackets": "Blazers",
+    "suit": "Suits", "suits": "Suits",
+    "vest": "Vests", "vests": "Vests",
+    "tracksuit": "Tracksuits", "tracksuits": "Tracksuits",
+    "swimwear": "Swimwear", "bikini": "Swimwear", "bikinis": "Swimwear",
+    "underwear": "Underwear", "bra": "Underwear", "bras": "Underwear",
+    "briefs": "Underwear", "socks": "Socks", "sock": "Socks",
+    # shoes
+    "shoe": "Sneakers", "shoes": "Sneakers",
+    "sneaker": "Sneakers", "sneakers": "Sneakers",
+    "boot": "Boots", "boots": "Boots",
+    "ankle boot": "Ankle Boots", "ankle boots": "Ankle Boots",
+    "sandal": "Sandals", "sandals": "Sandals",
+    "heeled sandals": "Heeled Sandals",
+    "loafer": "Loafers", "loafers": "Loafers",
+    "flat": "Flats", "flats": "Flats", "ballerina": "Flats",
+    "pump": "Pumps", "pumps": "Pumps", "heels": "Pumps",
+    "mule": "Mules", "mules": "Mules",
+    "slipper": "Slippers", "slippers": "Slippers",
+    "espadrille": "Espadrilles", "espadrilles": "Espadrilles",
+    "lace-up": "Lace-ups", "lace-ups": "Lace-ups", "oxfords": "Lace-ups",
+    # bags & accessories
+    "bag": "Handbags", "bags": "Handbags", "handbag": "Handbags",
+    "handbags": "Handbags", "shoulder bag": "Shoulder Bags",
+    "shoulder bags": "Shoulder Bags", "crossbody": "Shoulder Bags",
+    "clutch": "Clutches", "clutches": "Clutches",
+    "backpack": "Backpacks", "backpacks": "Backpacks",
+    "travel bag": "Travel Bags", "travel bags": "Travel Bags",
+    "luggage": "Travel Bags", "pouch": "Pouches", "pouches": "Pouches",
+    "belt bag": "Pouches", "belt bags": "Pouches",
+    "wallet": "Wallets", "wallets": "Wallets",
+    "card holder": "Card Holders", "card holders": "Card Holders",
+    "belt": "Belts", "belts": "Belts",
+    "scarf": "Scarves", "scarves": "Scarves",
+    "glove": "Gloves", "gloves": "Gloves",
+    "hat": "Hats", "hats": "Hats", "cap": "Hats", "caps": "Hats",
+    "tie": "Ties", "ties": "Ties",
+    "sunglasses": "Sunglasses", "glasses": "Sunglasses",
+    "jewellery": "Jewellery", "jewelry": "Jewellery",
+    "key holder": "Key Holder", "keyring": "Key Holder",
+    "hair accessories": "Hair Accessories",
+}
+
+GENDER_PREFIX = {"Women", "Men"}
+FEMALE_TAGS = {"woman", "women", "womens", "gender_woman", "damen",
+               "damenschuhe", "donna", "ladies", "female"}
+MALE_TAGS = {"man", "men", "mens", "gender_man", "herren", "uomo", "male"}
+SKIP_TAGS = {"junior", "kids", "gender_junior", "unisex", "gender_unisex"}
+FEMALE_ONLY_TYPES = {"Dresses", "Skirts", "Jumpsuits", "Clutches", "Pumps",
+                     "Mules", "Hair Accessories", "Jewellery"}
+
+
+def normalise_type(product_type: str, tags: list[str], title: str) -> str | None:
+    """
+    Turn whatever is in product_type into a "{Gender} {Type}" key that
+    GLAMI_CATEGORY knows, deriving gender from tags when it's absent.
+
+    Handles the three shapes seen in the catalog:
+      "Women Ankle Boots" -> already good
+      "Jacket" / "Bags"   -> ungendered supplier value, gender from tags
+      "Clothing"          -> too generic, returns None
+    """
+    pt = (product_type or "").strip()
+    if not pt:
+        return None
+
+    # Split off a gender prefix if present.
+    gender, tail = None, pt
+    for prefix in ("Women", "Men"):
+        if pt.startswith(prefix + " "):
+            gender, tail = prefix, pt[len(prefix) + 1:]
+            break
+    for prefix in ("Junior ", "Unisex ", "Kids "):
+        if pt.startswith(prefix):
+            return None                      # not Men/Women — out of scope
+
+    canonical = TYPE_ALIASES.get(tail.strip().lower(), tail.strip())
+    if canonical.lower() in ("clothing", "accessories", "apparel", "other"):
+        return None                          # genuinely too generic
+
+    if not gender:
+        low = {t.strip().lower() for t in tags}
+        low |= {t.split("->")[0].strip().lower() for t in tags}
+        if low & SKIP_TAGS:
+            return None
+        female, male = bool(low & FEMALE_TAGS), bool(low & MALE_TAGS)
+        if female and not male:
+            gender = "Women"
+        elif male and not female:
+            gender = "Men"
+        elif canonical in FEMALE_ONLY_TYPES:
+            gender = "Women"
+        else:
+            t = title.lower()
+            if re.search(r"\b(woman|women|womens|ladies)\b", t):
+                gender = "Women"
+            elif re.search(r"\b(man|men|mens)\b", t):
+                gender = "Men"
+    if not gender:
+        return None
+
+    return f"{gender} {canonical}"
+
+
 PRODUCTS_QUERY = """
 query Feed($cursor: String) {
   products(first: 50, after: $cursor, query: "status:active") {
     pageInfo { hasNextPage endCursor }
     nodes {
-      id title handle vendor productType descriptionHtml onlineStoreUrl
+      id title handle vendor productType tags descriptionHtml onlineStoreUrl
       media(first: 10) { nodes { preview { image { url } } } }
       variants(first: 100) {
         nodes {
@@ -272,8 +405,31 @@ def resolve_size(product_type: str, options: list[dict]) -> tuple[str, str] | No
     if pre:
         return (pre.group(2).replace(",", "."), pre.group(1).upper())
 
+    # "IT50 | L" — supplier gives both; the numeric half is more precise.
+    combo = re.match(r"^(EU|IT|UK|US|FR|DE)\s*(\d{1,3}(?:[.,]5)?)\s*\|", raw, re.I)
+    if combo:
+        return (combo.group(2).replace(",", "."), combo.group(1).upper())
+
+    # "43-44", "39-40" — a range; take the lower bound, as retailers do.
+    rng = re.fullmatch(r"(\d{1,3})\s*[-–/]\s*(\d{1,3})", raw)
+    if rng:
+        return (rng.group(1), "EU" if tail in SHOE_WORDS else NUMERIC_CLOTHING_SYSTEM)
+
+    # "8cm", "12 cm" — a measurement, already a size in its own right.
+    cm = re.fullmatch(r"(\d{1,3})\s*cm", raw, re.I)
+    if cm:
+        return (f"{cm.group(1)} cm", "INT")
+
+    if raw.upper() in ("U", "UNI", "TU", "ONE", "OS"):
+        return ("One size", "INT")
+
     if raw.upper() in LETTER_SIZES:
         return (raw.upper(), "INT")
+
+    # "LXL" written without a separator
+    nosep = re.fullmatch(r"(XS|S|M|L|XL)(S|M|L|XL|XXL)", raw.upper())
+    if nosep:
+        return (f"{nosep.group(1)}/{nosep.group(2)}", "INT")
 
     num = re.fullmatch(r"(\d{1,3})([.,]5)?", raw)
     if num:
@@ -417,17 +573,18 @@ def main() -> int:
             stats["skipped_excluded_type"] += 1
             continue
 
-        category = GLAMI_CATEGORY.get(ptype)
+        key = normalise_type(ptype, product.get("tags") or [], product["title"])
+        category = GLAMI_CATEGORY.get(key) if key else None
         if not category:
             stats["skipped_unmapped_type"] += 1
-            unmapped[ptype or "(empty)"] += 1
+            unmapped[f"{ptype or '(empty)'}" + (f" -> {key}" if key else "")] += 1
             continue
 
         description = clean_description(product.get("descriptionHtml"))
 
         for variant in in_stock:
             try:
-                size = resolve_size(ptype, variant["selectedOptions"])
+                size = resolve_size(key, variant["selectedOptions"])
             except ValueError as exc:
                 stats["skipped_bad_size"] += 1
                 bad_sizes[str(exc)] += 1
