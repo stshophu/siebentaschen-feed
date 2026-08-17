@@ -64,6 +64,8 @@ GLAMI_CATEGORY = {
     'Men Blazers': 'Glami.pl | Moda męska | Odzież męska | Garnitury męskie | Marynarki męskie',
     'Men Boots': 'Glami.pl | Moda męska | Buty męskie | Botki męskie',
     'Men Card Holders': 'Glami.pl | Moda męska | Akcesoria męskie | Portfele męskie | Etui na karty męskie',
+    'Men Tops': 'Glami.pl | Moda męska | Odzież męska | T-shirty i koszulki męskie | Koszulki męskie',
+    'Men Clutches': 'Glami.pl | Moda męska | Akcesoria męskie | Torby męskie | Torebki męskie',
     'Men Coats': 'Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Płaszcze męskie',
     'Men Down Jackets': 'Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie | Kurtki puchowe męskie',
     'Men Espadrilles': 'Glami.pl | Moda męska | Buty męskie | Espadryle męskie',
@@ -158,6 +160,7 @@ EXCLUDED_TYPES = {
     "Women Collar",
     "Women Tech Accessories",
     "Women Clothing",  # still generic — fix the product, don't guess here
+    "Men Blankets", "Men Tech Accessories", "Men Collar",
 }
 
 # Glami exempts these from the size requirement.
@@ -170,7 +173,7 @@ SHOE_WORDS = {
     "Sneakers", "Boots", "Ankle Boots", "Sandals", "Heeled Sandals",
     "Loafers", "Flats", "Slippers", "Espadrilles", "Mules", "Pumps", "Lace-ups",
 }
-LETTER_SIZES = {"XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL", "3XL", "4XL",
+LETTER_SIZES = {"XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL", "3XL", "4XL", "5XL",
                 "XS/S", "S/M", "M/L", "L/XL"}
 
 # Suppliers send a mix of Italian and English colour names; Glami.pl wants Polish.
@@ -372,7 +375,8 @@ def type_tail(product_type: str) -> str:
     return product_type
 
 
-def resolve_size(product_type: str, options: list[dict]) -> tuple[str, str] | None:
+def resolve_size(product_type: str, options: list[dict],
+                 single_variant: bool = False) -> tuple[str, str] | None:
     """
     (value, size_system), or None when Glami exempts this category.
     Raises ValueError when a size is required but unusable.
@@ -392,6 +396,10 @@ def resolve_size(product_type: str, options: list[dict]) -> tuple[str, str] | No
     if tail in SIZE_EXEMPT_WORDS:
         return None
     if not raw:
+        # A product with a single variant and no size option is one-size —
+        # dropping it would lose ~120 otherwise-valid accessories.
+        if single_variant:
+            return ("One size", "INT")
         raise ValueError("no size option")
     if raw.lower() in ("one size", "onesize", "os", "uni", "unisize"):
         return ("One size", "INT")
@@ -420,8 +428,23 @@ def resolve_size(product_type: str, options: list[dict]) -> tuple[str, str] | No
     if cm:
         return (f"{cm.group(1)} cm", "INT")
 
-    if raw.upper() in ("U", "UNI", "TU", "ONE", "OS"):
+    if raw.upper() in ("U", "UNI", "TU", "ONE", "OS", "NOSIZE", "NO SIZE"):
         return ("One size", "INT")
+
+    # Roman numerals — some Italian suppliers size gloves and belts this way.
+    # Passed through as-is rather than guessed into letter sizes.
+    if re.fullmatch(r"I{1,4}|IV|V|VI", raw.upper()):
+        return (raw.upper(), "INT")
+
+    # "S-M", "L-XL" — letter range written with a hyphen.
+    lr = re.fullmatch(r"(XS|S|M|L|XL|XXL)\s*[-–/]\s*(XS|S|M|L|XL|XXL)", raw.upper())
+    if lr:
+        return (f"{lr.group(1)}/{lr.group(2)}", "INT")
+
+    # "W30", "W38" — jeans waist in inches.
+    waist = re.fullmatch(r"W\s*(\d{2})", raw, re.I)
+    if waist:
+        return (waist.group(1), "US")
 
     if raw.upper() in LETTER_SIZES:
         return (raw.upper(), "INT")
@@ -584,7 +607,8 @@ def main() -> int:
 
         for variant in in_stock:
             try:
-                size = resolve_size(key, variant["selectedOptions"])
+                size = resolve_size(key, variant["selectedOptions"],
+                                    single_variant=len(in_stock) == 1)
             except ValueError as exc:
                 stats["skipped_bad_size"] += 1
                 bad_sizes[str(exc)] += 1
