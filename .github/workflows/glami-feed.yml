@@ -1,0 +1,87 @@
+name: Glami feed
+
+on:
+  schedule:
+    # Hourly, at :20 past — offset from other feed jobs so they don't all
+    # hit the Shopify API at the same minute.
+    - cron: "20 * * * *"
+  workflow_dispatch:
+    inputs:
+      audit:
+        description: "Audit only — report gaps, don't publish"
+        type: boolean
+        default: false
+
+concurrency:
+  group: glami-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate feed
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN }}
+          GLAMI_CPC: ${{ vars.GLAMI_CPC }}
+        run: |
+          if [ "${{ inputs.audit }}" = "true" ]; then
+            python glami_feed.py --audit
+          else
+            python glami_feed.py --out glami_feed.xml
+          fi
+
+      - name: Sanity-check the feed before publishing
+        if: ${{ inputs.audit != true }}
+        run: |
+          python - <<'PY'
+          import sys, os
+          from xml.etree import ElementTree as ET
+
+          path = "glami_feed.xml"
+          size = os.path.getsize(path)
+          root = ET.parse(path).getroot()          # fails loudly on malformed XML
+          items = root.findall("SHOPITEM")
+          print(f"{len(items)} items, {size/1024/1024:.1f} MB")
+
+          # Guard against publishing a truncated feed if Shopify errors mid-run.
+          if len(items) < 500:
+              sys.exit(f"only {len(items)} items — refusing to publish")
+
+          missing = [i for i in items if i.find("CATEGORYTEXT") is None]
+          if missing:
+              sys.exit(f"{len(missing)} items without CATEGORYTEXT")
+
+          bad = [i for i in items
+                 if not i.findtext("CATEGORYTEXT", "").startswith("Glami.pl | ")]
+          if bad:
+              sys.exit(f"{len(bad)} items with a malformed category path")
+          PY
+
+      - name: Commit if changed
+        if: ${{ inputs.audit != true }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add glami_feed.xml
+          if git diff --cached --quiet; then
+            echo "No change this run."
+          else
+            git commit -m "Glami feed: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
