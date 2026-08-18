@@ -163,6 +163,15 @@ EXCLUDED_TYPES = {
     "Men Blankets", "Men Tech Accessories", "Men Collar",
 }
 
+# Small accessories where a few CPC clicks can outweigh the margin. Set
+# ACCESSORY_MIN_PRICE_EUR (env) to skip these below a euro threshold; leave
+# it unset to include everything. Applies to accessories ONLY — a cheap
+# T-shirt still goes in the feed.
+ACCESSORY_TYPES = {
+    "Belts", "Scarves", "Gloves", "Wallets", "Socks", "Hats", "Ties",
+    "Key Holder", "Card Holders", "Hair Accessories", "Pouches",
+}
+
 # Glami exempts these from the size requirement.
 SIZE_EXEMPT_WORDS = {
     "Sunglasses", "Scarves", "Handbags", "Shoulder Bags", "Travel Bags",
@@ -173,7 +182,7 @@ SHOE_WORDS = {
     "Sneakers", "Boots", "Ankle Boots", "Sandals", "Heeled Sandals",
     "Loafers", "Flats", "Slippers", "Espadrilles", "Mules", "Pumps", "Lace-ups",
 }
-LETTER_SIZES = {"XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL", "3XL", "4XL", "5XL",
+LETTER_SIZES = {"XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL", "2XL", "3XL", "4XL", "5XL",
                 "XS/S", "S/M", "M/L", "L/XL"}
 
 # Suppliers send a mix of Italian and English colour names; Glami.pl wants Polish.
@@ -441,6 +450,11 @@ def resolve_size(product_type: str, options: list[dict],
     if lr:
         return (f"{lr.group(1)}/{lr.group(2)}", "INT")
 
+    # "7-XXL" — numeric glove size paired with a letter size.
+    mixed = re.fullmatch(r"(\d{1,2}(?:[.,]5)?)\s*[-–/]\s*(?:XS|S|M|L|XL|XXL)", raw.upper())
+    if mixed:
+        return (mixed.group(1).replace(",", "."), "INT")
+
     # "W30", "W38" — jeans waist in inches.
     waist = re.fullmatch(r"W\s*(\d{2})", raw, re.I)
     if waist:
@@ -527,14 +541,14 @@ def cdata(text: str) -> str:
 
 
 def build_item(product, variant, category, size, color, description,
-               price_pln, cpc) -> str:
+               price_pln, cpc, item_id: str) -> str:
     images = [n["preview"]["image"]["url"] for n in product["media"]["nodes"]
               if n.get("preview", {}).get("image", {}).get("url")]
     url = product.get("onlineStoreUrl") or f"{STOREFRONT}/products/{product['handle']}"
     vid = variant["id"].rsplit("/", 1)[-1]
 
     L = ["<SHOPITEM>"]
-    L.append(f"<ITEM_ID>{html.escape(variant['sku'] or vid)}</ITEM_ID>")
+    L.append(f"<ITEM_ID>{html.escape(item_id)}</ITEM_ID>")
     L.append(f"<ITEMGROUP_ID>{product['id'].rsplit('/', 1)[-1]}</ITEMGROUP_ID>")
     L.append(f"<PRODUCTNAME>{cdata(product['title'].strip())}</PRODUCTNAME>")
     if description:
@@ -576,9 +590,14 @@ def main() -> int:
 
     rate = fx_eur_pln()
     cpc = os.environ.get("GLAMI_CPC")
+    min_acc = os.environ.get("ACCESSORY_MIN_PRICE_EUR")
+    min_acc = Decimal(min_acc) if min_acc else None
     print(f"FX EUR->PLN: {rate}")
+    if min_acc:
+        print(f"Skipping accessories under EUR {min_acc}")
 
     items: list[str] = []
+    seen_ids: set[str] = set()
     stats = Counter()
     unmapped: Counter = Counter()
     bad_sizes: Counter = Counter()
@@ -606,6 +625,11 @@ def main() -> int:
         description = clean_description(product.get("descriptionHtml"))
 
         for variant in in_stock:
+            if min_acc and type_tail(key) in ACCESSORY_TYPES \
+                    and Decimal(variant["price"]) < min_acc:
+                stats["skipped_cheap_accessory"] += 1
+                continue
+
             try:
                 size = resolve_size(key, variant["selectedOptions"],
                                     single_variant=len(in_stock) == 1)
@@ -615,10 +639,21 @@ def main() -> int:
                 continue
             price = (Decimal(variant["price"]) * rate).quantize(
                 Decimal("0.01"), rounding=ROUND_HALF_UP)
+
+            # Glami rejects duplicate ITEM_IDs. SKUs are not reliably unique —
+            # a duplicated Shopify product carries the supplier's SKU twice —
+            # so fall back to the variant ID, which always is.
+            vid = variant["id"].rsplit("/", 1)[-1]
+            item_id = (variant.get("sku") or "").strip() or vid
+            if item_id in seen_ids:
+                stats["duplicate_sku_resolved"] += 1
+                item_id = vid
+            seen_ids.add(item_id)
+
             items.append(build_item(
                 product, variant, category, size,
                 resolve_color(variant["selectedOptions"]),
-                description, price, cpc))
+                description, price, cpc, item_id))
             stats["items_written"] += 1
 
     print("\n--- Summary ---")
