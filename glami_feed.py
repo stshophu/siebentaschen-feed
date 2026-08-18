@@ -507,6 +507,16 @@ def resolve_color(options: list[dict]) -> str | None:
     return None
 
 
+# GLAMI limits ITEM_ID to 64 chars and to letters, digits, / \ - _ space . :
+# Italian supplier SKUs break both rules ("cdfu_1373-caffè-L" has an accent).
+ITEM_ID_ILLEGAL = re.compile(r"[^A-Za-z0-9/\\\-_ .:]")
+
+def sanitise_item_id(raw: str) -> str:
+    cleaned = ITEM_ID_ILLEGAL.sub("-", raw).strip()
+    cleaned = re.sub(r"-{2,}", "-", cleaned)[:64].strip("-. ")
+    return cleaned
+
+
 def is_valid_gtin(value: str | None) -> bool:
     """The old feed put SKUs in <EAN>; invalid GTINs poison Glami's pairing."""
     if not value:
@@ -659,7 +669,7 @@ def main() -> int:
             # a duplicated Shopify product carries the supplier's SKU twice —
             # so fall back to the variant ID, which always is.
             vid = variant["id"].rsplit("/", 1)[-1]
-            item_id = (variant.get("sku") or "").strip() or vid
+            item_id = sanitise_item_id((variant.get("sku") or "").strip()) or vid
             if item_id in seen_ids:
                 stats["duplicate_sku_resolved"] += 1
                 item_id = vid
