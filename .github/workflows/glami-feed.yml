@@ -34,26 +34,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Check credentials are visible
-        env:
-          # Accept either namespace: Secrets and Variables are separate tabs
-          # on the same settings page and are easy to mix up.
-          STORE: ${{ secrets.SHOPIFY_STORE || vars.SHOPIFY_STORE }}
-          TOKEN: ${{ secrets.SHOPIFY_TOKEN || vars.SHOPIFY_TOKEN }}
-        run: |
-          echo "repo: ${{ github.repository }}"
-          echo "secrets.SHOPIFY_STORE set? ${{ secrets.SHOPIFY_STORE != '' }}"
-          echo "vars.SHOPIFY_STORE    set? ${{ vars.SHOPIFY_STORE != '' }}"
-          echo "secrets.SHOPIFY_TOKEN set? ${{ secrets.SHOPIFY_TOKEN != '' }}"
-          echo "vars.SHOPIFY_TOKEN    set? ${{ vars.SHOPIFY_TOKEN != '' }}"
-          # Never print the values themselves — only their length.
-          echo "resolved store length: ${#STORE}"
-          echo "resolved token length: ${#TOKEN}"
-
       - name: Generate feed
         env:
-          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE || vars.SHOPIFY_STORE }}
-          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN || vars.SHOPIFY_TOKEN }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE_DOMAIN || secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN || secrets.SHOPIFY_TOKEN }}
           GLAMI_CPC: ${{ vars.GLAMI_CPC }}
         run: |
           if [ "${{ inputs.audit }}" = "true" ]; then
