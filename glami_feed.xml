@@ -59006,32 +59006,6 @@ Made in Italy]]></DESCRIPTION>
 <EAN>8054712875304</EAN>
 </SHOPITEM>
 <SHOPITEM>
-<ITEM_ID>SWE PS 1 CN FW25 17353 T_XXL</ITEM_ID>
-<ITEMGROUP_ID>15491594125652</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Paul & Shark Cotton Sweatshirt]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Composition: 100% Cotton
-
- Long sleeves
-
- Ribbed trims
-
- Made in Italy
-
- Gender: MEN]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/paul-shark-cotton-sweatshirt</URL>
-<URL_SIZE>https://siebentaschen.com/products/paul-shark-cotton-sweatshirt?variant=56029569352020</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/cdcea9f1e5bcee5cd575a44f0193e20c.jpg?v=1780681671</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/501fc682c4405003cebaa36beb1f3b33.jpg?v=1780681671</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2907a7d6cdf844ea327a9a2d32f3bcac.jpg?v=1780681671</IMGURL_ALTERNATIVE>
-<PRICE_VAT>689.65</PRICE_VAT>
-<MANUFACTURER><![CDATA[PAUL & SHARK]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Bluzy męskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XXL]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-<EAN>8056789523133</EAN>
-</SHOPITEM>
-<SHOPITEM>
 <ITEM_ID>SWE PS 1 CN FW25 17353 T_XL</ITEM_ID>
 <ITEMGROUP_ID>15491594125652</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Paul & Shark Cotton Sweatshirt]]></PRODUCTNAME>
@@ -151230,7 +151204,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>COT WK 2 LC FW26 17488 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742383620436</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Weekend Peroso Wool Coat]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Wool Coat]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
 
  Long sleeves
@@ -151259,7 +151233,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>COT WK 2 LC FW26 17488 T_36</ITEM_ID>
 <ITEMGROUP_ID>15742383620436</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Weekend Peroso Wool Coat]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Wool Coat]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
 
  Long sleeves
@@ -151286,9 +151260,38 @@ Made in Italy]]></DESCRIPTION>
 <EAN>50160161060632</EAN>
 </SHOPITEM>
 <SHOPITEM>
+<ITEM_ID>COT WK 2 LC FW26 17488 T_44</ITEM_ID>
+<ITEMGROUP_ID>15742383620436</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Loose fit
+
+ Rain cape on the back and an overlapping rear slit
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-peroso-wool-coat</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-peroso-wool-coat?variant=57067365269844</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fae865b5d1e240523f57926b4c32b652.jpg?v=1788596025</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ffd19dce720cba6a69e5ebda0bbdb7b3.jpg?v=1788596025</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a3af2da0221e044cf466656d6ae446c8.jpg?v=1788596025</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9bd3e26e1c5ec361daac33e5ce0f1ea7.jpg?v=1788596025</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2284.46</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>50160161060636</EAN>
+</SHOPITEM>
+<SHOPITEM>
 <ITEM_ID>COT WK 2 LC FW26 17488 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742383620436</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Weekend Peroso Wool Coat]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Wool Coat]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
 
  Long sleeves
@@ -151317,7 +151320,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>COT WK 2 LC FW26 17488 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742383620436</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Weekend Peroso Wool Coat]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Wool Coat]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
 
  Long sleeves
@@ -151767,7 +151770,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17465 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742440309076</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Velvet Crusca Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Velvet Crusca Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  Long sleeves
@@ -151799,7 +151802,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17465 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742440309076</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Velvet Crusca Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Velvet Crusca Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  Long sleeves
@@ -151831,7 +151834,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17465 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742440309076</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Velvet Crusca Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Velvet Crusca Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  Long sleeves
@@ -151863,7 +151866,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17469 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742440472916</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Abissi Wool Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Abissi Wool Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Virgin wool
 
  Long sleeves
@@ -151890,7 +151893,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17469 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742440472916</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Abissi Wool Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Abissi Wool Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Virgin wool
 
  Long sleeves
@@ -151917,7 +151920,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 CJ FW26 17469 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742440472916</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Abissi Wool Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Abissi Wool Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Virgin wool
 
  Long sleeves
@@ -152246,7 +152249,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 LJ FW26 17480 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742441029972</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Nappa Leather Giusto Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Nappa Leather Giusto Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Sheepskin
 
  Fully lined
@@ -152280,7 +152283,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 LJ FW26 17480 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742441029972</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Nappa Leather Giusto Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Nappa Leather Giusto Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Sheepskin
 
  Fully lined
@@ -152314,7 +152317,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>JKT SO 2 LJ FW26 17480 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742441029972</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Nappa Leather Giusto Jacket]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Nappa Leather Giusto Jacket]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Sheepskin
 
  Fully lined
@@ -153023,7 +153026,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>PNT SO 2 FW FW26 17466 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742445420884</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Mister Velvet Trousers]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Mister Velvet Trousers]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  High-waist
@@ -153056,7 +153059,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>PNT SO 2 FW FW26 17466 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742445420884</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Mister Velvet Trousers]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Mister Velvet Trousers]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  High-waist
@@ -153089,7 +153092,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>PNT SO 2 FW FW26 17466 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742445420884</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Mister Velvet Trousers]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Mister Velvet Trousers]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 98% Cotton 2% Elastane
 
  High-waist
@@ -153312,7 +153315,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>SKT SO 2 AG FW26 17482 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742449975636</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Leopard Falange Skirt]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Leopard Falange Skirt]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Cotton
 
  Fully lined
@@ -153346,7 +153349,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>SKT SO 2 AG FW26 17482 T_38</ITEM_ID>
 <ITEMGROUP_ID>15742449975636</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Leopard Falange Skirt]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Leopard Falange Skirt]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Cotton
 
  Fully lined
@@ -153380,7 +153383,7 @@ Made in Italy]]></DESCRIPTION>
 <SHOPITEM>
 <ITEM_ID>SKT SO 2 AG FW26 17482 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742449975636</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Max Mara Leopard Falange Skirt]]></PRODUCTNAME>
+<PRODUCTNAME><![CDATA[Max Mara Studio Leopard Falange Skirt]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 100% Cotton
 
  Fully lined
@@ -154259,5 +154262,2014 @@ Made in Italy]]></DESCRIPTION>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[zielony]]></VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 CP FW26 17484 T_UNI</ITEM_ID>
+<ITEMGROUP_ID>15749373493588</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Pirania Wool Cape]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Wool
+
+ Fringe finish
+
+ Logo jacquard lettering
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-pirania-wool-cape</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-pirania-wool-cape?variant=57067341513044</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/bc0f59225405f621911309c5d6ae66c9.jpg?v=1788856165</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/27beaa8fc7b0d7b46b6c1935710d88ca.jpg?v=1788856165</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3c213c7227cb6bbac4e10fcc1737676e.jpg?v=1788856165</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9df5a75e96c71fa4b359785542d82de5.jpg?v=1788856165</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/0ae16499749f6b535c80369dbad83cc1.jpg?v=1788856165</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1853.43</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[One size]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>65460261060012</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 CP FW26 17485 T_UNI</ITEM_ID>
+<ITEMGROUP_ID>15749374017876</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Pirania Wool Cape]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Wool
+
+ Fringe finish
+
+ Logo jacquard lettering
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-pirania-wool-cape-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-pirania-wool-cape-1?variant=57067342561620</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/269c0ffd17ecb659c50ddc289e1362fa.jpg?v=1788856188</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6f15e4bca7f41c2b2f3d12e63c7013be.jpg?v=1788856188</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a8b170b9a5ef66c9952d1389aa241a86.jpg?v=1788856188</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7f60aa64ecea0f51f1a5d8093936ee5a.jpg?v=1788856188</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1853.43</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[One size]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>65460261060032</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 DB FW26 17475 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749375295828</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Bcollag Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Lined in Monogram jacquard fabric
+
+ 2-in-1 shirt collar
+
+ In-seam side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1?variant=57067348230484</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/aca4d8bac6c216463c063d2ed6744e7c.jpg?v=1788856283</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2fb699158f7f37b1d64c92e2a9b4bcb3.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b1ba379617aa73c38ade097e67427f49.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9aff8989a608a23a9418087f1bfba927.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3a09aaeb1f9dcf10ad593a618c9f7903_95ca067a-a3c1-4338-90e7-7da9fa1ceacf.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160661060135</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 DB FW26 17475 T_44</ITEM_ID>
+<ITEMGROUP_ID>15749375295828</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Bcollag Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Lined in Monogram jacquard fabric
+
+ 2-in-1 shirt collar
+
+ In-seam side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1?variant=57067348263252</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/aca4d8bac6c216463c063d2ed6744e7c.jpg?v=1788856283</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2fb699158f7f37b1d64c92e2a9b4bcb3.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b1ba379617aa73c38ade097e67427f49.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9aff8989a608a23a9418087f1bfba927.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3a09aaeb1f9dcf10ad593a618c9f7903_95ca067a-a3c1-4338-90e7-7da9fa1ceacf.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160661060136</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 DB FW26 17475 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749375295828</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Bcollag Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Lined in Monogram jacquard fabric
+
+ 2-in-1 shirt collar
+
+ In-seam side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1?variant=57067348296020</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/aca4d8bac6c216463c063d2ed6744e7c.jpg?v=1788856283</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2fb699158f7f37b1d64c92e2a9b4bcb3.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b1ba379617aa73c38ade097e67427f49.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9aff8989a608a23a9418087f1bfba927.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3a09aaeb1f9dcf10ad593a618c9f7903_95ca067a-a3c1-4338-90e7-7da9fa1ceacf.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160661060133</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 DB FW26 17475 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749375295828</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Bcollag Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Lined in Monogram jacquard fabric
+
+ 2-in-1 shirt collar
+
+ In-seam side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-bcollag-wool-coat-1?variant=57067348328788</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/aca4d8bac6c216463c063d2ed6744e7c.jpg?v=1788856283</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2fb699158f7f37b1d64c92e2a9b4bcb3.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b1ba379617aa73c38ade097e67427f49.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9aff8989a608a23a9418087f1bfba927.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3a09aaeb1f9dcf10ad593a618c9f7903_95ca067a-a3c1-4338-90e7-7da9fa1ceacf.jpg?v=1788856283</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160661060134</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 KL FW26 17471 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749376016724</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Newmang Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Viscose lining
+
+ Completely finished with tailoring stitching
+
+ Double-drap pure wool coat
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1?variant=57067352195412</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/768fd1b37cf46fb4aab01cc1516a5504.jpg?v=1788856325</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c4797d3fcc669139acb0a8deeca58ad7.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e2912c9f9637ab164605919efa0e71ed.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9f00bff85035a4d518b198675bd88ba6.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/518987281f6baa82f5b24970fbecf626.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160961060065</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 KL FW26 17471 T_36</ITEM_ID>
+<ITEMGROUP_ID>15749376016724</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Newmang Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Viscose lining
+
+ Completely finished with tailoring stitching
+
+ Double-drap pure wool coat
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1?variant=57067352228180</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/768fd1b37cf46fb4aab01cc1516a5504.jpg?v=1788856325</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c4797d3fcc669139acb0a8deeca58ad7.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e2912c9f9637ab164605919efa0e71ed.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9f00bff85035a4d518b198675bd88ba6.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/518987281f6baa82f5b24970fbecf626.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[36]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160961060062</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 KL FW26 17471 T_44</ITEM_ID>
+<ITEMGROUP_ID>15749376016724</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Newmang Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Viscose lining
+
+ Completely finished with tailoring stitching
+
+ Double-drap pure wool coat
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1?variant=57067352260948</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/768fd1b37cf46fb4aab01cc1516a5504.jpg?v=1788856325</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c4797d3fcc669139acb0a8deeca58ad7.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e2912c9f9637ab164605919efa0e71ed.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9f00bff85035a4d518b198675bd88ba6.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/518987281f6baa82f5b24970fbecf626.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160961060066</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT SO 2 KL FW26 17471 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749376016724</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Newmang Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Viscose lining
+
+ Completely finished with tailoring stitching
+
+ Double-drap pure wool coat
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-newmang-coat-1?variant=57067352326484</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/768fd1b37cf46fb4aab01cc1516a5504.jpg?v=1788856325</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c4797d3fcc669139acb0a8deeca58ad7.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e2912c9f9637ab164605919efa0e71ed.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9f00bff85035a4d518b198675bd88ba6.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/518987281f6baa82f5b24970fbecf626.jpg?v=1788856325</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3146.52</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>60160961060064</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>JNS WK 2 WJ FW26 17500 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749418647892</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Arcadia Jeans]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Belt loops
+
+ The model wears a size 40 (IT) and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Pure beige cotton denim jeans with a used effect
+
+ Covered zip closure and stud button
+
+ Basque and patch pockets on the back
+
+ Logo label on the right back pocket + back strap
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans?variant=57067679187284</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/805e28b00377f2b92477d47596fd5854.jpg?v=1788858745</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3391efc0898922883ca54dbd1d484186.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4ea1f1e81dfdacd38d312a895f8534e9.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e4e1794f5b6cfea6d22335436d905bd1.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a32cd097227fb435a161947f345c00af.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie | Jeansy damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>51860661060135</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>JNS WK 2 WJ FW26 17500 T_36</ITEM_ID>
+<ITEMGROUP_ID>15749418647892</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Arcadia Jeans]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Belt loops
+
+ The model wears a size 40 (IT) and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Pure beige cotton denim jeans with a used effect
+
+ Covered zip closure and stud button
+
+ Basque and patch pockets on the back
+
+ Logo label on the right back pocket + back strap
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans?variant=57067679220052</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/805e28b00377f2b92477d47596fd5854.jpg?v=1788858745</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3391efc0898922883ca54dbd1d484186.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4ea1f1e81dfdacd38d312a895f8534e9.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e4e1794f5b6cfea6d22335436d905bd1.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a32cd097227fb435a161947f345c00af.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie | Jeansy damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[36]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>51860661060132</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>JNS WK 2 WJ FW26 17500 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749418647892</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Arcadia Jeans]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Belt loops
+
+ The model wears a size 40 (IT) and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Pure beige cotton denim jeans with a used effect
+
+ Covered zip closure and stud button
+
+ Basque and patch pockets on the back
+
+ Logo label on the right back pocket + back strap
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans?variant=57067679252820</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/805e28b00377f2b92477d47596fd5854.jpg?v=1788858745</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3391efc0898922883ca54dbd1d484186.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4ea1f1e81dfdacd38d312a895f8534e9.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e4e1794f5b6cfea6d22335436d905bd1.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a32cd097227fb435a161947f345c00af.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie | Jeansy damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>51860661060133</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>JNS WK 2 WJ FW26 17500 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749418647892</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Arcadia Jeans]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Belt loops
+
+ The model wears a size 40 (IT) and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Pure beige cotton denim jeans with a used effect
+
+ Covered zip closure and stud button
+
+ Basque and patch pockets on the back
+
+ Logo label on the right back pocket + back strap
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-arcadia-jeans?variant=57067679285588</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/805e28b00377f2b92477d47596fd5854.jpg?v=1788858745</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3391efc0898922883ca54dbd1d484186.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4ea1f1e81dfdacd38d312a895f8534e9.jpg?v=1788858745</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e4e1794f5b6cfea6d22335436d905bd1.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a32cd097227fb435a161947f345c00af.jpg?v=1788858746</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie | Jeansy damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>51860661060134</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 CR FW26 17460 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749420482900</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Carnet Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Zip fastening
+
+ Ribbed cuffs
+
+ Cropped design
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan?variant=57067697996116</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02a426e3c1cc26c3036a5f2e7c0d32ab.jpg?v=1788858878</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8fd6523ff72573eee0448e16fd65bcfb.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/34658cab2bd666411f513972b7ae5d26.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1767.22</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63460362060085</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 CR FW26 17460 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749420482900</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Carnet Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Zip fastening
+
+ Ribbed cuffs
+
+ Cropped design
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan?variant=57067698028884</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02a426e3c1cc26c3036a5f2e7c0d32ab.jpg?v=1788858878</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8fd6523ff72573eee0448e16fd65bcfb.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/34658cab2bd666411f513972b7ae5d26.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1767.22</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63460362060084</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 CR FW26 17460 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749420482900</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Carnet Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Zip fastening
+
+ Ribbed cuffs
+
+ Cropped design
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-carnet-cardigan?variant=57067698061652</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02a426e3c1cc26c3036a5f2e7c0d32ab.jpg?v=1788858878</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8fd6523ff72573eee0448e16fd65bcfb.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/34658cab2bd666411f513972b7ae5d26.jpg?v=1788858878</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1767.22</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63460362060083</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 TN FW26 17461 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749420613972</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Eccelso Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Straight hem
+
+ Turtleneck
+
+ A versatile wardrobe essential
+
+ Color: Rope
+
+ Premium wool and cashmere blend
+
+ Distinctive ribbed texture across the body
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater?variant=57067701502292</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fbe11f259abfcb4cf9ffbbd1c866980f.jpg?v=1788858884</IMGURL>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63660762060125</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 TN FW26 17461 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749420613972</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Eccelso Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Straight hem
+
+ Turtleneck
+
+ A versatile wardrobe essential
+
+ Color: Rope
+
+ Premium wool and cashmere blend
+
+ Distinctive ribbed texture across the body
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater?variant=57067701535060</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fbe11f259abfcb4cf9ffbbd1c866980f.jpg?v=1788858884</IMGURL>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63660762060124</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT SO 2 TN FW26 17461 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749420613972</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Eccelso Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 20% Cashmere 80% Wool
+
+ Long sleeves
+
+ Straight hem
+
+ Turtleneck
+
+ A versatile wardrobe essential
+
+ Color: Rope
+
+ Premium wool and cashmere blend
+
+ Distinctive ribbed texture across the body
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-eccelso-sweater?variant=57067701567828</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fbe11f259abfcb4cf9ffbbd1c866980f.jpg?v=1788858884</IMGURL>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>63660762060123</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17498 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749420941652</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Teiera Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered details
+
+ Mother-of-pearl buttons
+
+ Cardigan in plain cotton yarn
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan?variant=57067703206228</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1ce96306c5b601149a65c9f412f42825.jpg?v=1788858905</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/01a37f2f4195c33ab69cffa18f3d976b.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dff064c86268a1af507f66ba7ac0e34f.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2ff578beaf56066c5a2b2b402cbea385.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/207b21bf07f656bd93aa51df2b995a3a.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<PRICE_VAT>905.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460461060225</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17498 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749420941652</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Teiera Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered details
+
+ Mother-of-pearl buttons
+
+ Cardigan in plain cotton yarn
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan?variant=57067703238996</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1ce96306c5b601149a65c9f412f42825.jpg?v=1788858905</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/01a37f2f4195c33ab69cffa18f3d976b.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dff064c86268a1af507f66ba7ac0e34f.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2ff578beaf56066c5a2b2b402cbea385.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/207b21bf07f656bd93aa51df2b995a3a.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<PRICE_VAT>905.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460461060224</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17498 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749420941652</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Teiera Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered details
+
+ Mother-of-pearl buttons
+
+ Cardigan in plain cotton yarn
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan?variant=57067703271764</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1ce96306c5b601149a65c9f412f42825.jpg?v=1788858905</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/01a37f2f4195c33ab69cffa18f3d976b.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dff064c86268a1af507f66ba7ac0e34f.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2ff578beaf56066c5a2b2b402cbea385.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/207b21bf07f656bd93aa51df2b995a3a.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<PRICE_VAT>905.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460461060223</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17498 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749420941652</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Teiera Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered details
+
+ Mother-of-pearl buttons
+
+ Cardigan in plain cotton yarn
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-teiera-cardigan?variant=57067703304532</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1ce96306c5b601149a65c9f412f42825.jpg?v=1788858905</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/01a37f2f4195c33ab69cffa18f3d976b.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dff064c86268a1af507f66ba7ac0e34f.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2ff578beaf56066c5a2b2b402cbea385.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/207b21bf07f656bd93aa51df2b995a3a.jpg?v=1788858905</IMGURL_ALTERNATIVE>
+<PRICE_VAT>905.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460461060222</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17514 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421138260</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Belgio Wool Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered logo detail
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan?variant=57067707728212</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4cf7ed64feab294bcf9d529062383490.jpg?v=1788858920</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4a1a5cd6d6238bfee2be2be86548f8c7.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7577663a97c1deb65f1051a570e292f5.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dd39af89cff7a5622dd1dc175a117c27.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/464e1edea38b124b320482676d236802.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1185.33</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460762060043</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17514 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421138260</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Belgio Wool Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered logo detail
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan?variant=57067707760980</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4cf7ed64feab294bcf9d529062383490.jpg?v=1788858920</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4a1a5cd6d6238bfee2be2be86548f8c7.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7577663a97c1deb65f1051a570e292f5.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dd39af89cff7a5622dd1dc175a117c27.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/464e1edea38b124b320482676d236802.jpg?v=1788858920</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1185.33</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460762060042</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17515 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421236564</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Belgio Wool Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered logo detail
+
+ Ribbed hem and cuffs
+
+ Cardigan in pure wool yarn
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan-1?variant=57067708252500</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/704bc696017f30af6a3cf7e3c47d2e3f.jpg?v=1788858933</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/cdfd5c6ed1c2f5f057b75b0cfec6b837.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/33a308e5beb35120a38ae4cc2463035a.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/84737038088f643af065754452a9e392.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/001535d2bc356129c3c2b20ce5197b78.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1185.33</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460762060053</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CR FW26 17515 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421236564</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Belgio Wool Cardigan]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Front button closure
+
+ Embroidered logo detail
+
+ Ribbed hem and cuffs
+
+ Cardigan in pure wool yarn
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-belgio-wool-cardigan-1?variant=57067708285268</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/704bc696017f30af6a3cf7e3c47d2e3f.jpg?v=1788858933</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/cdfd5c6ed1c2f5f057b75b0cfec6b837.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/33a308e5beb35120a38ae4cc2463035a.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/84737038088f643af065754452a9e392.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/001535d2bc356129c3c2b20ce5197b78.jpg?v=1788858933</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1185.33</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53460762060052</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17496 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749421334868</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyimide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Sweater in alpaca and cotton yarn
+
+ The model wears size M and is 178 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater?variant=57067709235540</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9033ab93fec5f59aefcfc1db48e3ba86.jpg?v=1788858945</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b14a8827cf39b59c5cd34251c16d929f.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f67cb60b1f021f3486f9f40c79f833bd.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/796e3c9ce5353fc31f8d303bd6398255.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6b3e9572f26440e883dcf560e4089c79.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060015</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17496 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749421334868</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyimide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Sweater in alpaca and cotton yarn
+
+ The model wears size M and is 178 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater?variant=57067709268308</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9033ab93fec5f59aefcfc1db48e3ba86.jpg?v=1788858945</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b14a8827cf39b59c5cd34251c16d929f.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f67cb60b1f021f3486f9f40c79f833bd.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/796e3c9ce5353fc31f8d303bd6398255.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6b3e9572f26440e883dcf560e4089c79.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060014</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17496 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421334868</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyimide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Sweater in alpaca and cotton yarn
+
+ The model wears size M and is 178 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater?variant=57067709301076</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9033ab93fec5f59aefcfc1db48e3ba86.jpg?v=1788858945</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b14a8827cf39b59c5cd34251c16d929f.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f67cb60b1f021f3486f9f40c79f833bd.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/796e3c9ce5353fc31f8d303bd6398255.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6b3e9572f26440e883dcf560e4089c79.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060013</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17496 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421334868</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyimide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Sweater in alpaca and cotton yarn
+
+ The model wears size M and is 178 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater?variant=57067709333844</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9033ab93fec5f59aefcfc1db48e3ba86.jpg?v=1788858945</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b14a8827cf39b59c5cd34251c16d929f.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f67cb60b1f021f3486f9f40c79f833bd.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/796e3c9ce5353fc31f8d303bd6398255.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6b3e9572f26440e883dcf560e4089c79.jpg?v=1788858945</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060012</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17497 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749421531476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyamide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1?variant=57067713397076</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d324ffa68c09b67dfe2818e7b89d8ad1.jpg?v=1788858956</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2b60e6cb9c914e4d03803262a12e1fdc.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/41336f4ca90a25477d592a73ebc8edc5.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b326c8730dc03de235f6f7c1534ec1c9.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060065</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17497 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749421531476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyamide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1?variant=57067713429844</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d324ffa68c09b67dfe2818e7b89d8ad1.jpg?v=1788858956</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2b60e6cb9c914e4d03803262a12e1fdc.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/41336f4ca90a25477d592a73ebc8edc5.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b326c8730dc03de235f6f7c1534ec1c9.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060064</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17497 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421531476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyamide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1?variant=57067713462612</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d324ffa68c09b67dfe2818e7b89d8ad1.jpg?v=1788858956</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2b60e6cb9c914e4d03803262a12e1fdc.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/41336f4ca90a25477d592a73ebc8edc5.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b326c8730dc03de235f6f7c1534ec1c9.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>662161060063</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17497 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421531476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Ghiacci Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 45% Alpaca 15% Cotton 2% Elastane 15% Modal 23% Polyamide
+
+ Long sleeves
+
+ Round neck
+
+ Loose fit
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-ghiacci-sweater-1?variant=57067713495380</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d324ffa68c09b67dfe2818e7b89d8ad1.jpg?v=1788858956</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2b60e6cb9c914e4d03803262a12e1fdc.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/41336f4ca90a25477d592a73ebc8edc5.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b326c8730dc03de235f6f7c1534ec1c9.jpg?v=1788858956</IMGURL_ALTERNATIVE>
+<PRICE_VAT>732.75</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662161060062</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17499 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749421760852</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Fiacre Cotton Pullover]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Round neck
+
+ Embroidered details
+
+ Short sleeves
+
+ Cotton yarn sweater
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover?variant=57067714576724</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/140cc63d4a09cea9e02908f0cb366080.jpg?v=1788858971</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/da4290f22e0822b24fc53881734f6a8d.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7353e0f70021bf7caecc213b6b47587f.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/de16c8f3129b6f6cb79e545351ee05da.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9cde5775a1a9f4eb73f3327e8927eb02.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53661961060205</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17499 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749421760852</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Fiacre Cotton Pullover]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Round neck
+
+ Embroidered details
+
+ Short sleeves
+
+ Cotton yarn sweater
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover?variant=57067714609492</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/140cc63d4a09cea9e02908f0cb366080.jpg?v=1788858971</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/da4290f22e0822b24fc53881734f6a8d.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7353e0f70021bf7caecc213b6b47587f.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/de16c8f3129b6f6cb79e545351ee05da.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9cde5775a1a9f4eb73f3327e8927eb02.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53661961060204</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17499 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421760852</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Fiacre Cotton Pullover]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Round neck
+
+ Embroidered details
+
+ Short sleeves
+
+ Cotton yarn sweater
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover?variant=57067714642260</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/140cc63d4a09cea9e02908f0cb366080.jpg?v=1788858971</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/da4290f22e0822b24fc53881734f6a8d.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7353e0f70021bf7caecc213b6b47587f.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/de16c8f3129b6f6cb79e545351ee05da.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9cde5775a1a9f4eb73f3327e8927eb02.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53661961060203</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17499 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421760852</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Fiacre Cotton Pullover]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 95% Cotton 5% Polyester
+
+ Round neck
+
+ Embroidered details
+
+ Short sleeves
+
+ Cotton yarn sweater
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 87 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-fiacre-cotton-pullover?variant=57067714675028</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/140cc63d4a09cea9e02908f0cb366080.jpg?v=1788858971</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/da4290f22e0822b24fc53881734f6a8d.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7353e0f70021bf7caecc213b6b47587f.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/de16c8f3129b6f6cb79e545351ee05da.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9cde5775a1a9f4eb73f3327e8927eb02.jpg?v=1788858971</IMGURL_ALTERNATIVE>
+<PRICE_VAT>711.20</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53661961060202</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17513 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749421990228</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Pavidi Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Round neck
+
+ Embroidered details
+
+ Loose fit
+
+ Long sleeves with low set-in
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Jacquard workmanship
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater?variant=57067718738260</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ee6971538af8f42b04e16c4159d0c226.jpg?v=1788858986</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fa49811b99d9251ca0ff50f9ac547279.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/320fbe98723cc4ba84566439a54aa794.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f6d35111eef0555135f8af7860ebd13d.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b138edc4fe900fe1dc02c4d349bef197.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662362060085</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17513 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749421990228</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Pavidi Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Round neck
+
+ Embroidered details
+
+ Loose fit
+
+ Long sleeves with low set-in
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Jacquard workmanship
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater?variant=57067718771028</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ee6971538af8f42b04e16c4159d0c226.jpg?v=1788858986</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fa49811b99d9251ca0ff50f9ac547279.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/320fbe98723cc4ba84566439a54aa794.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f6d35111eef0555135f8af7860ebd13d.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b138edc4fe900fe1dc02c4d349bef197.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662362060084</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17513 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749421990228</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Pavidi Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Round neck
+
+ Embroidered details
+
+ Loose fit
+
+ Long sleeves with low set-in
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Jacquard workmanship
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater?variant=57067718803796</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ee6971538af8f42b04e16c4159d0c226.jpg?v=1788858986</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fa49811b99d9251ca0ff50f9ac547279.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/320fbe98723cc4ba84566439a54aa794.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f6d35111eef0555135f8af7860ebd13d.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b138edc4fe900fe1dc02c4d349bef197.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662362060083</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 CW FW26 17513 T_XS</ITEM_ID>
+<ITEMGROUP_ID>15749421990228</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Pavidi Sweater]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Round neck
+
+ Embroidered details
+
+ Loose fit
+
+ Long sleeves with low set-in
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Jacquard workmanship
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-pavidi-sweater?variant=57067718836564</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ee6971538af8f42b04e16c4159d0c226.jpg?v=1788858986</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/fa49811b99d9251ca0ff50f9ac547279.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/320fbe98723cc4ba84566439a54aa794.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/f6d35111eef0555135f8af7860ebd13d.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/b138edc4fe900fe1dc02c4d349bef197.jpg?v=1788858986</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XS]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53662362060082</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 KV FW26 17512 T_L</ITEM_ID>
+<ITEMGROUP_ID>15749422121300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Cacao Vest]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Sleeveless
+
+ Round neck
+
+ Embroidered details
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-cacao-vest</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-cacao-vest?variant=57067719197012</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bae7085fa29db027b5d8091a79d65f1.jpg?v=1788858999</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c05253a14a7dfae0de9c42b7fdb209a3.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8aeedb2a80c3adf8a55e84568a71a321.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/662edb2aea5ce807841c3103f4dc561c.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/56adf9a0f2bfbb7d22e6e99e05a3d197.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kamizelki damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[L]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53560162060025</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 KV FW26 17512 T_M</ITEM_ID>
+<ITEMGROUP_ID>15749422121300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Cacao Vest]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Sleeveless
+
+ Round neck
+
+ Embroidered details
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-cacao-vest</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-cacao-vest?variant=57067719229780</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bae7085fa29db027b5d8091a79d65f1.jpg?v=1788858999</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c05253a14a7dfae0de9c42b7fdb209a3.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8aeedb2a80c3adf8a55e84568a71a321.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/662edb2aea5ce807841c3103f4dc561c.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/56adf9a0f2bfbb7d22e6e99e05a3d197.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kamizelki damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53560162060024</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>KNT WK 2 KV FW26 17512 T_S</ITEM_ID>
+<ITEMGROUP_ID>15749422121300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Cacao Vest]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Sleeveless
+
+ Round neck
+
+ Embroidered details
+
+ The model wears size M and is 179 cm tall. Her measurements are: waist 60 cm and hips 89 cm.
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-cacao-vest</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-cacao-vest?variant=57067719262548</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bae7085fa29db027b5d8091a79d65f1.jpg?v=1788858999</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c05253a14a7dfae0de9c42b7fdb209a3.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8aeedb2a80c3adf8a55e84568a71a321.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/662edb2aea5ce807841c3103f4dc561c.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/56adf9a0f2bfbb7d22e6e99e05a3d197.jpg?v=1788858999</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kamizelki damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>53560162060023</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17462 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749425135956</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers?variant=57067754062164</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/66ab66ebd082f546b18c123e56d096e1.jpg?v=1788859215</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9217d4b34f70ee09b57afae18689be31.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7a8e3c807a303901109d52f07d10ce4b.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65bfe7f3d413f7685c6fdde01a379ac0.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8f63e79d0f26410f3c7c59e80023d287.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060055</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17462 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749425135956</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers?variant=57067754094932</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/66ab66ebd082f546b18c123e56d096e1.jpg?v=1788859215</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9217d4b34f70ee09b57afae18689be31.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7a8e3c807a303901109d52f07d10ce4b.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65bfe7f3d413f7685c6fdde01a379ac0.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8f63e79d0f26410f3c7c59e80023d287.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060053</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17462 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749425135956</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers?variant=57067754127700</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/66ab66ebd082f546b18c123e56d096e1.jpg?v=1788859215</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9217d4b34f70ee09b57afae18689be31.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7a8e3c807a303901109d52f07d10ce4b.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65bfe7f3d413f7685c6fdde01a379ac0.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8f63e79d0f26410f3c7c59e80023d287.jpg?v=1788859215</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060054</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17463 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749425627476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Wide-leg
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1?variant=57067755503956</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37f7c4888c71b9945b29bb532367fe4c.jpg?v=1788859227</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bc5c5a745462bc82ba29c0a16da0226.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4c361d4c281e37a4e4c633ec32b766c0.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e1df36d3aa1569d4db3aa3012d04c769.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e56ab863140f15884cd08dee4af5c1f3.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060195</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17463 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749425627476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Wide-leg
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1?variant=57067755536724</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37f7c4888c71b9945b29bb532367fe4c.jpg?v=1788859227</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bc5c5a745462bc82ba29c0a16da0226.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4c361d4c281e37a4e4c633ec32b766c0.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e1df36d3aa1569d4db3aa3012d04c769.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e56ab863140f15884cd08dee4af5c1f3.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060193</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17463 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749425627476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Aere Wide Trousers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 3% Elastane 97% Virgin wool
+
+ Two side pockets
+
+ High-waist
+
+ Wide-leg
+
+ Closure with high waistband, zip with flap and hook
+
+ Belt loops and matching belt with buckle
+
+ Darts sewn into the waist at the back
+
+ Stretch wool twill trousers
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-aere-wide-trousers-1?variant=57067755569492</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37f7c4888c71b9945b29bb532367fe4c.jpg?v=1788859227</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7bc5c5a745462bc82ba29c0a16da0226.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4c361d4c281e37a4e4c633ec32b766c0.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e1df36d3aa1569d4db3aa3012d04c769.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e56ab863140f15884cd08dee4af5c1f3.jpg?v=1788859227</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1530.16</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360562060194</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17477 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749426217300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Cambusa Pants]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Two side pockets
+
+ Belt loops
+
+ High-waist
+
+ Bottom width: 25 cm
+
+ Length from crotch to bottom: 92 cm (size 40)
+
+ Ironed crease and darts sewn at the waist on the back
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-cambusa-pants</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-cambusa-pants?variant=57067756945748</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d639332fdab1118d8460d6d398b2289f.jpg?v=1788859248</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02bfd54a5bca82685e933e4c5277b40e.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5deeed0395e99a12b113c060a6b5cd6c.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4f25a83d5d8071d23fe4a809cb0b7c52.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37bc7774846c45e57e5fd1a6d3179ff1.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360461060055</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17477 T_44</ITEM_ID>
+<ITEMGROUP_ID>15749426217300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Cambusa Pants]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Two side pockets
+
+ Belt loops
+
+ High-waist
+
+ Bottom width: 25 cm
+
+ Length from crotch to bottom: 92 cm (size 40)
+
+ Ironed crease and darts sewn at the waist on the back
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-cambusa-pants</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-cambusa-pants?variant=57067756978516</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d639332fdab1118d8460d6d398b2289f.jpg?v=1788859248</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02bfd54a5bca82685e933e4c5277b40e.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5deeed0395e99a12b113c060a6b5cd6c.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4f25a83d5d8071d23fe4a809cb0b7c52.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37bc7774846c45e57e5fd1a6d3179ff1.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360461060056</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17477 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749426217300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Cambusa Pants]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Two side pockets
+
+ Belt loops
+
+ High-waist
+
+ Bottom width: 25 cm
+
+ Length from crotch to bottom: 92 cm (size 40)
+
+ Ironed crease and darts sewn at the waist on the back
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-cambusa-pants</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-cambusa-pants?variant=57067757011284</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d639332fdab1118d8460d6d398b2289f.jpg?v=1788859248</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02bfd54a5bca82685e933e4c5277b40e.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5deeed0395e99a12b113c060a6b5cd6c.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4f25a83d5d8071d23fe4a809cb0b7c52.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37bc7774846c45e57e5fd1a6d3179ff1.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360461060053</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>PNT SO 2 FW FW26 17477 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749426217300</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Cambusa Pants]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Two side pockets
+
+ Belt loops
+
+ High-waist
+
+ Bottom width: 25 cm
+
+ Length from crotch to bottom: 92 cm (size 40)
+
+ Ironed crease and darts sewn at the waist on the back
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-cambusa-pants</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-cambusa-pants?variant=57067757044052</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d639332fdab1118d8460d6d398b2289f.jpg?v=1788859248</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/02bfd54a5bca82685e933e4c5277b40e.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5deeed0395e99a12b113c060a6b5cd6c.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4f25a83d5d8071d23fe4a809cb0b7c52.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/37bc7774846c45e57e5fd1a6d3179ff1.jpg?v=1788859249</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spodnie damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61360461060054</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>SKT SO 2 LK FW26 17479 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749431918932</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Timore Leather Pencil Skirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Sheepskin
+
+ Fully lined
+
+ High-waist
+
+ Central rear slit
+
+ Sewn darts on the back of the waist
+
+ Zip fastening on the left side
+
+ Soft hammered leather skirt
+
+ Slant side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt?variant=57067787157844</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2d1e7da5a55d6709d912a24b4ea6338d.jpg?v=1788859669</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6117459e8d18a589a847a19301a8f708.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/08f5fb278d1a29b547fb6c3879a571ee.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/329f571ab3a2ca5270887d7dff02e915.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/0f5f3425c44036b98eae8a28009a3925.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spódnice damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>64060161060025</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>SKT SO 2 LK FW26 17479 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749431918932</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Timore Leather Pencil Skirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Sheepskin
+
+ Fully lined
+
+ High-waist
+
+ Central rear slit
+
+ Sewn darts on the back of the waist
+
+ Zip fastening on the left side
+
+ Soft hammered leather skirt
+
+ Slant side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt?variant=57067787190612</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2d1e7da5a55d6709d912a24b4ea6338d.jpg?v=1788859669</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6117459e8d18a589a847a19301a8f708.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/08f5fb278d1a29b547fb6c3879a571ee.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/329f571ab3a2ca5270887d7dff02e915.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/0f5f3425c44036b98eae8a28009a3925.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spódnice damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>64060161060023</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>SKT SO 2 LK FW26 17479 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749431918932</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Timore Leather Pencil Skirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Sheepskin
+
+ Fully lined
+
+ High-waist
+
+ Central rear slit
+
+ Sewn darts on the back of the waist
+
+ Zip fastening on the left side
+
+ Soft hammered leather skirt
+
+ Slant side pockets
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-timore-leather-pencil-skirt?variant=57067787223380</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2d1e7da5a55d6709d912a24b4ea6338d.jpg?v=1788859669</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6117459e8d18a589a847a19301a8f708.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/08f5fb278d1a29b547fb6c3879a571ee.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/329f571ab3a2ca5270887d7dff02e915.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/0f5f3425c44036b98eae8a28009a3925.jpg?v=1788859669</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1961.19</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Spódnice damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>64060161060024</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>TOP SO 2 SH FW26 17481 T_42</ITEM_ID>
+<ITEMGROUP_ID>15749438210388</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Staffa Broderie Shirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Long sleeves
+
+ Boxy fit
+
+ Model is 180cm/5ft 11in and is wearing size 38 (UK 6)
+
+ Embroidered Broderie Anglaise cuffs
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt?variant=57067831787860</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/96054b8033715529097beeeec0b72d47.jpg?v=1788860058</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/131233751702a3dfb616c8ef9c5ea2cb.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5dc523cc3b7f0be75e3b562e7d9024b2.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9437d4292e0c39865b1ef5ecba326695.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65e98ccfcd641f5399e8eaf139a1eac5.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Bluzki i koszule damskie | Koszule damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61160161060015</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>TOP SO 2 SH FW26 17481 T_38</ITEM_ID>
+<ITEMGROUP_ID>15749438210388</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Staffa Broderie Shirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Long sleeves
+
+ Boxy fit
+
+ Model is 180cm/5ft 11in and is wearing size 38 (UK 6)
+
+ Embroidered Broderie Anglaise cuffs
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt?variant=57067831820628</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/96054b8033715529097beeeec0b72d47.jpg?v=1788860058</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/131233751702a3dfb616c8ef9c5ea2cb.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5dc523cc3b7f0be75e3b562e7d9024b2.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9437d4292e0c39865b1ef5ecba326695.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65e98ccfcd641f5399e8eaf139a1eac5.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Bluzki i koszule damskie | Koszule damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61160161060013</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>TOP SO 2 SH FW26 17481 T_40</ITEM_ID>
+<ITEMGROUP_ID>15749438210388</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Staffa Broderie Shirt]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Cotton
+
+ Long sleeves
+
+ Boxy fit
+
+ Model is 180cm/5ft 11in and is wearing size 38 (UK 6)
+
+ Embroidered Broderie Anglaise cuffs
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-staffa-broderie-shirt?variant=57067831853396</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/96054b8033715529097beeeec0b72d47.jpg?v=1788860058</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/131233751702a3dfb616c8ef9c5ea2cb.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5dc523cc3b7f0be75e3b562e7d9024b2.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/9437d4292e0c39865b1ef5ecba326695.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/65e98ccfcd641f5399e8eaf139a1eac5.jpg?v=1788860058</IMGURL_ALTERNATIVE>
+<PRICE_VAT>969.82</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Bluzki i koszule damskie | Koszule damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>61160161060014</EAN>
 </SHOPITEM>
 </SHOP>
