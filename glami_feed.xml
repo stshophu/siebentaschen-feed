@@ -74675,6 +74675,25 @@ Made in Italy]]></DESCRIPTION>
 <EAN>8221852626046</EAN>
 </SHOPITEM>
 <SHOPITEM>
+<ITEM_ID>w5c9101_e2374-a34-42</ITEM_ID>
+<ITEMGROUP_ID>15496510046548</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Love Moschino Woman White Dress]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Love Moschino cotton blend dress with metallic rubber logo on the chest, long sleeves]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/love-moschino-woman-white-dress</URL>
+<URL_SIZE>https://siebentaschen.com/products/love-moschino-woman-white-dress?variant=56056557470036</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-10961-1519715985.png?v=1780951617</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-10961-1188879565.png?v=1780951617</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-10961-284617038.png?v=1780951617</IMGURL_ALTERNATIVE>
+<PRICE_VAT>316.78</PRICE_VAT>
+<MANUFACTURER><![CDATA[love moschino]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Sukienki damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[biały]]></VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>8055204726821</EAN>
+</SHOPITEM>
+<SHOPITEM>
 <ITEM_ID>w5c9101_e2374-a34-44</ITEM_ID>
 <ITEMGROUP_ID>15496510046548</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Love Moschino Woman White Dress]]></PRODUCTNAME>
@@ -111546,26 +111565,6 @@ Dimensions: 25 x 22 x 11 cm.]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moose Knuckles]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[M]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
-<ITEM_ID>2000000108292</ITEM_ID>
-<ITEMGROUP_ID>15546361872724</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Moose Knuckles Jackets Light Blue]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Material: Cotton
- Colour: Light Blue]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/moose-knuckles-jackets-19</URL>
-<URL_SIZE>https://siebentaschen.com/products/moose-knuckles-jackets-19?variant=56229778227540</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/wAJERIR8KB0dlWAv25NOV92.jpg?v=1782391311</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/zSpE8MxAEjbk0Okf25NOV92_25203.jpg?v=1782391311</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gSEcAb0QbS6LG8Vz25NOV92_25201.jpg?v=1782391311</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/c7WtK1pUjP5pjdMj25NOV92_25202.jpg?v=1782391311</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/PqmmHWgtLUArZwIK25NOV92_2520_281_29.jpg?v=1782391311</IMGURL_ALTERNATIVE>
-<PRICE_VAT>2473.80</PRICE_VAT>
-<MANUFACTURER><![CDATA[Moose Knuckles]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Kurtki damskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[S]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
