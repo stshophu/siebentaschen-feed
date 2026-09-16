@@ -159701,4 +159701,40 @@ Made in Italy]]></DESCRIPTION>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 <EAN>8056782908890</EAN>
 </SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>bernini-srot-beige-56</ITEM_ID>
+<ITEMGROUP_ID>15772422930772</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[moorer Man Heavy Jacket Bernini Beige]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Moorer beige jacket with two front zipped pockets, a high collar and a button fastening]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/moorer-man-heavy-jacket-bernini-beige</URL>
+<URL_SIZE>https://siebentaschen.com/products/moorer-man-heavy-jacket-bernini-beige?variant=57178483917140</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19449-764222707.png?v=1789579779</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19449-1412527760.png?v=1789579779</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19449-1497624895.png?v=1789579779</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2021.45</PRICE_VAT>
+<MANUFACTURER><![CDATA[moorer]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[56]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[beżowy]]></VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>riberto-amc-petrolio-48</ITEM_ID>
+<ITEMGROUP_ID>15772424110420</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[moorer Man Trench Coat Riberto Petrolio Green]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Moorer petrol-coloured trench coat with a shantung-effect finish, two flap pockets at the front, a collar and button fastening]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/moorer-man-trench-coat-riberto-petrolio-green</URL>
+<URL_SIZE>https://siebentaschen.com/products/moorer-man-trench-coat-riberto-petrolio-green?variant=57178495254868</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19448-965335890.png?v=1789579789</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19448-1232995344.png?v=1789579789</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19448-150881008.png?v=1789579789</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1486.73</PRICE_VAT>
+<MANUFACTURER><![CDATA[moorer]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[48]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[zielony]]></VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
 </SHOP>
