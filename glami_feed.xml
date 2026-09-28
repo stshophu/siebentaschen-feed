@@ -6891,26 +6891,6 @@ Lining: 100% Nylon]]></DESCRIPTION>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
-<ITEM_ID>2000000098623</ITEM_ID>
-<ITEMGROUP_ID>15394832974164</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Gucci Jackets Multicolor]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Material: Polyamide
- Colour: Multicolor]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/25giu211-giubbini-gucci</URL>
-<URL_SIZE>https://siebentaschen.com/products/25giu211-giubbini-gucci?variant=55675804189012</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/Ynjh7IF9E6nNQxWC25GIU211_25203.jpg?v=1777559660</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/GLNhw3YwqagVygj525GIU211.jpg?v=1777559660</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/s2ZyOkjfre7uGi9W25GIU211_25205.jpg?v=1777559660</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8iJV7LMojRn62urw25GIU211_25207.jpg?v=1777559661</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/buRd2g6T0JaloWcP25GIU211_2520_281_29.jpg?v=1777559659</IMGURL_ALTERNATIVE>
-<PRICE_VAT>5903.55</PRICE_VAT>
-<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[One size]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
 <ITEM_ID>2000000097367</ITEM_ID>
 <ITEMGROUP_ID>15394833039700</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Bottega Veneta Sunglasses Brown]]></PRODUCTNAME>
@@ -148816,12 +148796,30 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19492-699324188.png?v=1790606904</IMGURL>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19492-513170958.png?v=1790606904</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19492-1376298074.png?v=1790606904</IMGURL_ALTERNATIVE>
-<PRICE_VAT>6047.82</PRICE_VAT>
+<PRICE_VAT>6052.19</PRICE_VAT>
 <MANUFACTURER><![CDATA[moorer]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[50]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[szary]]></VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>mondor-4-denim-48</ITEM_ID>
+<ITEMGROUP_ID>15808591397204</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[moorer Man Jacket Mondor White]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Moorer denim jacket with a quilted bodice, a collar, two front pockets with buttons, and two flap pockets with buttons, adjustable waist, and button closure]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/moorer-man-jacket-mondor-white</URL>
+<URL_SIZE>https://siebentaschen.com/products/moorer-man-jacket-mondor-white?variant=57323508302164</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19493-1657572610.png?v=1790629341</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19493-961448617.png?v=1790629341</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19493-994422770.png?v=1790629341</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2908.00</PRICE_VAT>
+<MANUFACTURER><![CDATA[moorer]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[48]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[biały]]></VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 </SHOP>
