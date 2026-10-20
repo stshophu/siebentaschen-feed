@@ -74817,7 +74817,7 @@ Dimensions: 28x13 cm]]></DESCRIPTION>
 <IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16173-1682228752.png?v=1781554420</IMGURL>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16173-955916290.png?v=1781554420</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16173-1769027745.png?v=1781554420</IMGURL_ALTERNATIVE>
-<PRICE_VAT>576.97</PRICE_VAT>
+<PRICE_VAT>1110.27</PRICE_VAT>
 <MANUFACTURER><![CDATA[Emilio Romanelli]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
@@ -74917,7 +74917,7 @@ Dimensions: 28x13 cm]]></DESCRIPTION>
 <IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16168-1081221261.png?v=1781554451</IMGURL>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16168-248839854.png?v=1781554451</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16168-934927892.png?v=1781554451</IMGURL_ALTERNATIVE>
-<PRICE_VAT>576.97</PRICE_VAT>
+<PRICE_VAT>1110.27</PRICE_VAT>
 <MANUFACTURER><![CDATA[Emilio Romanelli]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Swetry damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
@@ -116804,6 +116804,25 @@ Made in Italy]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Dolce & Gabbana]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Swetry męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[48]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[niebieski]]></VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>michelangelo-dbcs-indigo-30</ITEM_ID>
+<ITEMGROUP_ID>15771091894612</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Tramarossa Man Dbcs Indigo Trousers Blue]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Tramarossa five-pocket jeans with a regular-slim fit, soft along the leg and at the hem, super-stretch denim, matte nickel button with a knurled surface and embossed logo, custom Tramarossa inner lining, and a rubber back label with a hot-stamped logo]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/tramarossa-man-dbcs-indigo-trousers-blue</URL>
+<URL_SIZE>https://siebentaschen.com/products/tramarossa-man-dbcs-indigo-trousers-blue?variant=57173565014356</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16150-1255597666.jpg?v=1789570895</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16150-858466157.jpg?v=1789570895</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16150-271112889.jpg?v=1789570895</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-16150-423834862.jpg?v=1789570895</IMGURL_ALTERNATIVE>
+<PRICE_VAT>1180.21</PRICE_VAT>
+<MANUFACTURER><![CDATA[Tramarossa]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Spodnie męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[30]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[niebieski]]></VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
