@@ -21,11 +21,11 @@ Optional environment variables (business policy values):
   SHIPPING_FREE_THRESHOLD order value (EUR) at and above which shipping
                           is free. Default: "150.00"
   SHIPPING_FLAT_RATE      shipping cost (EUR) below that threshold.
-                          Default: "4.00"
+                          Default: "6.95"
 
 Versandkosten is computed per row as: free if that item's own price
 is >= SHIPPING_FREE_THRESHOLD, otherwise SHIPPING_FLAT_RATE. This
-mirrors Siebentaschen's real DE shipping tiers (EUR 4.00 up to
+mirrors Siebentaschen's real DE shipping tiers (EUR 6.95 up to
 EUR 149.99, free from EUR 150.00) the way a single-item feed needs to
 represent a cart-level rule.
 """
@@ -47,12 +47,12 @@ STOREFRONT_BASE_URL = "https://siebentaschen.com/products/"
 LIEFERZEIT = os.environ.get("LIEFERZEIT", "3-5 Werktage")
 
 # Versandkosten follows Siebentaschen's actual DE shipping tiers:
-# EUR 4.00 for orders up to EUR 149.99, free from EUR 150.00.
+# EUR 6.95 for orders up to EUR 149.99, free from EUR 150.00.
 # A product feed needs one value per row, so this computes what
 # shipping would cost if that item were bought alone — the standard
 # way to represent a cart-level threshold in a per-product feed.
 SHIPPING_FREE_THRESHOLD = float(os.environ.get("SHIPPING_FREE_THRESHOLD", "150.00"))
-SHIPPING_FLAT_RATE = os.environ.get("SHIPPING_FLAT_RATE", "4.00")
+SHIPPING_FLAT_RATE = os.environ.get("SHIPPING_FLAT_RATE", "6.95")
 
 
 def compute_versandkosten(price):
