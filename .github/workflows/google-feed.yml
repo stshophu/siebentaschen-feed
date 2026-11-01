@@ -2,8 +2,8 @@ name: Google Merchant Center feed
 
 on:
   schedule:
-    # Every 6 hours at :40 — offset from the other feed jobs.
-    - cron: "40 */6 * * *"
+    # Daily at 03:40 UTC — before Merchant Center's daily fetch, offset from other feed jobs.
+    - cron: "40 3 * * *"
   workflow_dispatch:
     inputs:
       audit:
@@ -64,6 +64,9 @@ jobs:
               sys.exit(f"{len(leaked)} fabric-brand items leaked into the feed")
           if any(i.find(G + "sale_price") is not None for i in items):
               sys.exit("sale_price must not be in the feed")
+          no_ship = [i for i in items if i.find(G + "shipping") is None]
+          if no_ship:
+              sys.exit(f"{len(no_ship)} items without shipping")
           PY
 
       - name: Commit if changed

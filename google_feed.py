@@ -45,6 +45,31 @@ API_VERSION = "2025-07"
 STOREFRONT = "https://siebentaschen.com"
 COUNTRY = "DE"
 EXCLUDE_TAGS = {"no-google", "fabric-brand"}
+
+# Shipping per destination, mirroring the live Shopify rates (Nov 2026):
+#   Germany €6.95, free from €150 · rest of EU €8.00, free from €200.
+# Handling 1–2 business days, transit 3–5 business days.
+# Shipping is per order, so for a single-item feed "free from X" means the
+# item itself costs at least X.
+EU_COUNTRIES = ["AT", "BE", "BG", "CY", "CZ", "DK", "EE", "ES", "FI", "FR", "GR", "HR",
+                "HU", "IE", "IT", "LT", "LU", "LV", "MT", "NL", "PL", "PT", "RO", "SE",
+                "SI", "SK"]
+SHIPPING = {"DE": (Decimal("6.95"), Decimal("150"))}
+SHIPPING.update({c: (Decimal("8.00"), Decimal("200")) for c in EU_COUNTRIES})
+HANDLING_DAYS = (1, 2)
+TRANSIT_DAYS = (3, 5)
+
+
+def shipping_xml(price: Decimal) -> str:
+    out = []
+    for country, (rate, free_from) in SHIPPING.items():
+        cost = Decimal("0.00") if price >= free_from else rate
+        out.append(f"<g:shipping><g:country>{country}</g:country><g:price>{cost:.2f} EUR</g:price>"
+                   f"<g:min_handling_time>{HANDLING_DAYS[0]}</g:min_handling_time>"
+                   f"<g:max_handling_time>{HANDLING_DAYS[1]}</g:max_handling_time>"
+                   f"<g:min_transit_time>{TRANSIT_DAYS[0]}</g:min_transit_time>"
+                   f"<g:max_transit_time>{TRANSIT_DAYS[1]}</g:max_transit_time></g:shipping>")
+    return "".join(out)
 SECONDS_VENDOR = re.compile(r"2\s*°\s*choice", re.IGNORECASE)
 
 PRODUCTS_QUERY = """
@@ -185,6 +210,7 @@ def build_item(product: dict, variant: dict, images: list[str], description: str
         L.append(text("g:color", color[:100]))
     if size:
         L.append(text("g:size", size[:100]))
+    L.append(shipping_xml(Decimal(variant["price"])))
     L.append("</item>")
     return "".join(L)
 
