@@ -1,0 +1,81 @@
+name: Google Merchant Center feed
+
+on:
+  schedule:
+    # Every 6 hours at :40 — offset from the other feed jobs.
+    - cron: "40 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      audit:
+        description: "Audit only — print stats, don't publish"
+        type: boolean
+        default: false
+
+concurrency:
+  group: google-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate feed
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE_DOMAIN || secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN || secrets.SHOPIFY_TOKEN }}
+        run: |
+          if [ "${{ inputs.audit }}" = "true" ]; then
+            python google_feed.py --audit
+          else
+            python google_feed.py --out google_feed.xml
+          fi
+
+      - name: Sanity-check the feed before publishing
+        if: ${{ inputs.audit != true }}
+        run: |
+          python - <<'PY'
+          import os, sys
+          from xml.etree import ElementTree as ET
+          G = "{http://base.google.com/ns/1.0}"
+          path = "google_feed.xml"
+          items = ET.parse(path).getroot().find("channel").findall("item")  # fails on bad XML
+          print(f"{len(items)} items, {os.path.getsize(path)/1024/1024:.1f} MB")
+          if len(items) < 500:
+              sys.exit(f"only {len(items)} items — refusing to publish")
+          ids = [i.findtext(G + "id") for i in items]
+          if len(ids) != len(set(ids)):
+              sys.exit("duplicate g:id values")
+          leaked = [i.findtext(G + "title") for i in items
+                    if "loro piana fabric" in (i.findtext(G + "title") or "").lower()]
+          if leaked:
+              sys.exit(f"{len(leaked)} fabric-brand items leaked into the feed")
+          if any(i.find(G + "sale_price") is not None for i in items):
+              sys.exit("sale_price must not be in the feed")
+          PY
+
+      - name: Commit if changed
+        if: ${{ inputs.audit != true }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add google_feed.xml
+          if git diff --cached --quiet; then
+            echo "No change this run."
+          else
+            git commit -m "Google feed: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase -q
+            git push
+          fi
