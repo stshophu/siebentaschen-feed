@@ -193,6 +193,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="google_feed.xml")
     ap.add_argument("--audit", action="store_true")
+    ap.add_argument("--small-out", default=None,
+                    help="also write a reduced feed (for accounts with a low item limit)")
+    ap.add_argument("--small-max", type=int, default=400,
+                    help="max items in the reduced feed (all sizes of a product kept together)")
     args = ap.parse_args()
 
     store, token = os.environ.get("SHOPIFY_STORE"), os.environ.get("SHOPIFY_TOKEN")
@@ -201,6 +205,7 @@ def main() -> int:
         return 2
 
     items: list[str] = []
+    groups: list[tuple] = []   # (has_gtin, max_price, [item xml]) per product, for the reduced feed
     stats = Counter()
     for product in shopify_products(store, token):
         stats["products_seen"] += 1
@@ -225,10 +230,15 @@ def main() -> int:
             stats["skipped_out_of_stock"] += 1
             continue
         description = clean_description(product.get("descriptionHtml"), product["title"])
+        group = []
         for v in in_stock:
-            items.append(build_item(product, v, images, description))
+            xml = build_item(product, v, images, description)
+            items.append(xml)
+            group.append(xml)
             stats["items_written"] += 1
             stats["with_gtin"] += valid_gtin(v.get("barcode"))
+        groups.append((any(valid_gtin(v.get("barcode")) for v in in_stock),
+                       max(Decimal(v["price"]) for v in in_stock), group))
 
     print("--- Summary ---")
     for k, v in sorted(stats.items()):
@@ -237,7 +247,21 @@ def main() -> int:
         print("(audit mode: no feed written)")
         return 0
 
-    with open(args.out, "w", encoding="utf-8") as f:
+    write_feed(args.out, items)
+    if args.small_out:
+        # Reduced feed: products with a valid GTIN first, then highest price;
+        # whole products only, until the item cap is reached.
+        small: list[str] = []
+        for _, _, group in sorted(groups, key=lambda g: (not g[0], -g[1])):
+            if len(small) + len(group) > args.small_max:
+                continue
+            small.extend(group)
+        write_feed(args.small_out, small)
+    return 0
+
+
+def write_feed(path: str, items: list[str]) -> None:
+    with open(path, "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
                 '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0"><channel>'
                 "<title>Siebentaschen</title>"
@@ -245,8 +269,7 @@ def main() -> int:
                 "<description>Siebentaschen product feed for Google Merchant Center</description>\n")
         f.write("\n".join(items))
         f.write("\n</channel></rss>\n")
-    print(f"Wrote {len(items)} items to {args.out}")
-    return 0
+    print(f"Wrote {len(items)} items to {path}")
 
 
 if __name__ == "__main__":
