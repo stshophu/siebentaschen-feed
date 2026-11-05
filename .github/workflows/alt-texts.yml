@@ -1,0 +1,40 @@
+name: Image alt texts (Google Images)
+
+# Manual only: Actions tab -> "Image alt texts" -> Run workflow.
+# First run with "apply" off to see samples and counts, then with "apply" on.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write alt texts to Shopify (off = dry run)"
+        type: boolean
+        default: false
+      overwrite:
+        description: "Also replace alt texts that are already set"
+        type: boolean
+        default: false
+
+concurrency:
+  group: alt-texts
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Fill alt texts
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE_DOMAIN || secrets.SHOPIFY_STORE }}
+          # A token with write_products is needed for --apply.
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_WRITE_TOKEN || secrets.SHOPIFY_ADMIN_TOKEN || secrets.SHOPIFY_TOKEN }}
+        run: |
+          ARGS=""
+          [ "${{ inputs.apply }}" = "true" ] && ARGS="$ARGS --apply"
+          [ "${{ inputs.overwrite }}" = "true" ] && ARGS="$ARGS --overwrite"
+          python alt_text_backfill.py $ARGS
