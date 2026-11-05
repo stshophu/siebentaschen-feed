@@ -91,7 +91,7 @@
   {% if has_volume_pricing %}
     {% comment %} Volume pricing display {% endcomment %}
     {% if show_compare_price %}
-      <span class="price-item__group rrp-label">RRP</span>
+      <span class="price-item__group rrp-label">{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span>
       <span class="price-item__group compare-at-price">
         <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
         <bdi>{{- compare_at_price -}}</bdi>
@@ -109,13 +109,13 @@
           <span class="visually-hidden">{{ 'content.price_sale' | t }}&nbsp;</span>
           <bdi>{{ price | default: '&nbsp;' }}</bdi>
         </span>
-        <span class="price-item__group rrp-label">RRP</span>
+        <span class="price-item__group rrp-label">{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span>
         <span class="price-item__group price-item--regular compare-at-price">
           <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
           <bdi>{{- compare_at_price -}}</bdi>
         </span>
       {% else %}
-        <span class="price-item__group rrp-label">RRP</span>
+        <span class="price-item__group rrp-label">{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span>
         <span class="price-item__group price-item--regular compare-at-price">
           <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
           <bdi>{{- compare_at_price -}}</bdi>

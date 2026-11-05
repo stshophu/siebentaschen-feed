@@ -162,7 +162,7 @@
     "duties_and_taxes_included": "Inkl. Zollgebühren und Steuern.",
     "duties_included": "Inkl. Zollgebühren.",
     "shipping_policy_html": "<a href=\"{{ link }}\">Versand</a> wird beim Checkout berechnet.",
-    "taxes_included": "Inkl. Steuern.",
+    "taxes_included": "inkl. MwSt.",
     "product_badge_sold_out": "Ausverkauft",
     "product_badge_sale": "Unter UVP",
     "search_input_label": "Suchen",
@@ -232,7 +232,7 @@
     "page_placeholder_title": "Seitentitel",
     "page_placeholder_content": "Wähle eine Seite aus, die angezeigt werden soll.",
     "placeholder_image": "Platzhalterbild",
-    "shipping_policy": "Versandkosten werden beim Checkout berechnet.",
+    "shipping_policy": "zzgl. Versandkosten",
     "inventory_low_stock_show_count": {
       "one": "{{ count }} übrig",
       "other": "{{ count }} übrig"

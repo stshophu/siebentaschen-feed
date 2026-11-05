@@ -1,0 +1,77 @@
+{{ 'st-home.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign s = section.settings
+  assign p = product | default: closest.product
+  assign bh = p.vendor | handleize
+  assign bc = collections[bh]
+  if bc == blank or bc.products_count < 2
+    assign bh1 = bh | append: '-1'
+    assign bc = collections[bh1]
+  endif
+-%}
+{%- if p != blank and bc != blank and bc.products_count > 1 -%}
+<div class='st-h' id='st-{{ section.id }}' style='--st-accent: {{ s.accent }}; --st-per: 5;'>
+  <div class='st-h__wrap' style='--st-top: {{ s.top }}px; padding-bottom: 24px;'>
+    <section aria-labelledby='st-t-{{ section.id }}'>
+      <div class='st-h__head'>
+        <h2 class='st-h__title' id='st-t-{{ section.id }}'>{{ s.title_prefix }} <span style='color:#a3a3a3'>{{ p.vendor }}</span></h2>
+        <div class='st-h__tools'>
+          <a class='st-h__more' href='{{ bc.url }}'>View all<span class='visually-hidden'>: {{ p.vendor }}</span>&nbsp;→</a>
+          <div class='st-arrows'>
+            <button type='button' class='st-arrow' data-st-prev aria-label='Previous products'>←</button>
+            <button type='button' class='st-arrow' data-st-next aria-label='Next products'>→</button>
+          </div>
+        </div>
+      </div>
+      <ul class='st-row' data-st-track role='list' style='list-style: none; margin: 0; padding: 0;'>
+        {%- assign shown = 0 -%}
+        {%- for q in bc.products limit: 40 -%}
+          {%- if shown >= s.max -%}{%- break -%}{%- endif -%}
+          {%- if q.id == p.id or q.available == false or q.featured_image == blank -%}{%- continue -%}{%- endif -%}
+          {%- assign shown = shown | plus: 1 -%}
+          {%- assign img_alt = q.featured_image.alt | default: q.title | escape -%}
+          <li class='st-card'>
+            <a href='{{ q.url }}' style='display: contents;'>
+              <div class='st-card__img'>
+                {{ q.featured_image | image_url: width: 640 | image_tag: loading: 'lazy', decoding: 'async', widths: '240,360,480,640', sizes: '(min-width: 1200px) 20vw, (min-width: 750px) 32vw, 62vw', alt: img_alt }}
+                {%- if q.compare_at_price > q.price and q.tags contains 'RewixSync' -%}
+                  {%- assign off = q.compare_at_price | minus: q.price | times: 100 | divided_by: q.compare_at_price -%}
+                  <span class='st-card__off'>−{{ off }}%</span>
+                {%- endif -%}
+              </div>
+              <span class='st-card__brand'>{{ q.vendor }}</span>
+              <h3 class='st-card__t'>{{ q.title }}</h3>
+              <span class='st-card__p'>{{ q.price | money }}{% if q.compare_at_price > q.price and q.tags contains 'RewixSync' %} <span class='st-card__rrp'>{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span> <s>{{ q.compare_at_price | money }}</s>{% endif %}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  </div>
+</div>
+<script>
+  (function () {
+    var root = document.getElementById('st-{{ section.id }}');
+    if (!root) return;
+    var track = root.querySelector('[data-st-track]');
+    function go(dir) { track.scrollBy({ left: dir * track.clientWidth, behavior: 'smooth' }); }
+    var prev = root.querySelector('[data-st-prev]');
+    var next = root.querySelector('[data-st-next]');
+    if (prev) prev.addEventListener('click', function () { go(-1); });
+    if (next) next.addEventListener('click', function () { go(1); });
+  })();
+</script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "ST · More from designer",
+  "settings": [
+    { "type": "text", "id": "title_prefix", "label": "Heading start", "default": "More from" },
+    { "type": "range", "id": "max", "label": "Products to show", "min": 4, "max": 24, "step": 1, "default": 12 },
+    { "type": "color", "id": "accent", "label": "Discount tag colour", "default": "#C2410C" },
+    { "type": "range", "id": "top", "label": "Space above", "min": 0, "max": 200, "step": 8, "unit": "px", "default": 72 }
+  ],
+  "presets": [ { "name": "ST · More from designer" } ]
+}
+{% endschema %}
