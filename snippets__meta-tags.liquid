@@ -1,0 +1,176 @@
+{% doc %}
+  Renders all meta tags for the page including Open Graph, Twitter Cards, and SEO tags.
+
+  @param {object} [product] - The product object, available on product pages for price meta tags.
+{% enddoc %}
+
+<meta charset="utf-8">
+<meta
+  http-equiv="X-UA-Compatible"
+  content="IE=edge"
+>
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1,viewport-fit=cover"
+>
+<meta
+  name="theme-color"
+  content=""
+>
+
+{%- liquid
+  assign og_title = page_title | default: shop.name
+  assign og_url = canonical_url | default: request.origin
+  assign og_type = 'website'
+  assign og_description = page_description | default: shop.description | default: shop.name
+
+  if request.page_type == 'product'
+    assign og_type = 'product'
+  elsif request.page_type == 'article'
+    assign og_type = 'article'
+  elsif request.page_type == 'password'
+    assign og_url = request.origin
+  endif
+%}
+
+<meta
+  property="og:site_name"
+  content="{{ shop.name }}"
+>
+<meta
+  property="og:url"
+  content="{{ og_url }}"
+>
+<meta
+  property="og:title"
+  content="{{ og_title | escape }}"
+>
+<meta
+  property="og:type"
+  content="{{ og_type }}"
+>
+<meta
+  property="og:description"
+  content="{{ og_description | escape }}"
+>
+
+{%- if page_image -%}
+  <meta
+    property="og:image"
+    content="http:{{ page_image | image_url }}"
+  >
+  <meta
+    property="og:image:secure_url"
+    content="https:{{ page_image | image_url }}"
+  >
+  <meta
+    property="og:image:width"
+    content="{{ page_image.width }}"
+  >
+  <meta
+    property="og:image:height"
+    content="{{ page_image.height }}"
+  >
+{%- endif -%}
+
+{%- if request.page_type == 'product' -%}
+  <meta
+    property="og:price:amount"
+    content="{{ product.price | money_without_currency | strip_html }}"
+  >
+  <meta
+    property="og:price:currency"
+    content="{{ cart.currency.iso_code }}"
+  >
+{%- endif -%}
+
+{%- if settings.social_twitter_link != blank -%}
+  <meta
+    name="twitter:site"
+    content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}"
+  >
+{%- endif -%}
+<meta
+  name="twitter:card"
+  content="summary_large_image"
+>
+<meta
+  name="twitter:title"
+  content="{{ og_title | escape }}"
+>
+<meta
+  name="twitter:description"
+  content="{{ og_description | escape }}"
+>
+
+<title>
+  {{ page_title }}
+  {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+  {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+  {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+</title>
+
+{%- if template contains 'product' and product.metafields.deeplumen.ap_deployed.value == true and product.metafields.deeplumen.ap_canonical_url.value != blank -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="{{ product.metafields.deeplumen.ap_canonical_url.value | escape }}">
+  {%- endif -%}
+  {%- if product.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="{{ product.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ product.title | escape }}">
+  {%- endif -%}
+{%- elsif template contains 'collection' and collection.metafields.deeplumen.ap_deployed.value == true and collection.metafields.deeplumen.ap_canonical_url.value != blank -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="{{ collection.metafields.deeplumen.ap_canonical_url.value | escape }}">
+  {%- endif -%}
+  {%- if collection.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="{{ collection.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ collection.title | escape }}">
+  {%- endif -%}
+{%- elsif template contains 'article' and article.metafields.deeplumen.ap_deployed.value == true and article.metafields.deeplumen.ap_canonical_url.value != blank -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="{{ article.metafields.deeplumen.ap_canonical_url.value | escape }}">
+  {%- endif -%}
+  {%- if article.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="{{ article.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ article.title | escape }}">
+  {%- endif -%}
+{%- elsif template contains 'product' and product.metafields.deeplumen.ap_deployed.value == true -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="https://{{ request.host }}/a/shop/products/{{ product.handle }}">
+  {%- endif -%}
+  {%- if product.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/products/{{ product.handle }}" title="{{ product.title | escape }}">
+  {%- endif -%}
+{%- elsif template contains 'collection' and collection.metafields.deeplumen.ap_deployed.value == true -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="https://{{ request.host }}/a/shop/collections/{{ collection.handle }}">
+  {%- endif -%}
+  {%- if collection.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/collections/{{ collection.handle }}" title="{{ collection.title | escape }}">
+  {%- endif -%}
+{%- elsif template contains 'article' and article.metafields.deeplumen.ap_deployed.value == true -%}
+  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+  {%- else -%}
+  <link rel="canonical" href="https://{{ request.host }}/a/shop/blogs/{{ article.handle }}">
+  {%- endif -%}
+  {%- if article.metafields.deeplumen.ap_alternate_enabled.value == true -%}
+    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/blogs/{{ article.handle }}" title="{{ article.title | escape }}">
+  {%- endif -%}
+{%- else -%}
+  <link rel="canonical" href="{{ canonical_url }}">
+{%- endif -%}
+
+{% if page_description %}
+  <meta
+    name="description"
+    content="{{ page_description | escape }}"
+  >
+{% endif %}

@@ -1,0 +1,13 @@
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}
+
+# DeepLumen Agentic Discovery v4
+Sitemap: https://{{ request.host }}/a/shop/sitemap.xml
+Sitemap: https://{{ request.host }}/a/shop/llms.txt
