@@ -3,13 +3,13 @@
   <a href='{{ p.url }}' style='display: contents;'>
     <div class='st-card__img'>
       {{ p.featured_image | image_url: width: 640 | image_tag: loading: 'lazy', decoding: 'async', widths: '240,360,480,640', sizes: '(min-width: 1200px) 20vw, (min-width: 750px) 32vw, 62vw', alt: img_alt }}
-      {%- if p.compare_at_price > p.price and p.tags contains 'RewixSync' -%}
+      {%- if p.compare_at_price > p.price -%}
         {%- assign off = p.compare_at_price | minus: p.price | times: 100 | divided_by: p.compare_at_price -%}
         <span class='st-card__off'>−{{ off }}%</span>
       {%- endif -%}
     </div>
     <span class='st-card__brand'>{{ p.vendor }}</span>
     <h3 class='st-card__t'>{{ p.title }}</h3>
-    <span class='st-card__p'>{{ p.price | money }}{% if p.compare_at_price > p.price and p.tags contains 'RewixSync' %} <span class='st-card__rrp'>{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span> <s>{{ p.compare_at_price | money }}</s>{% endif %}</span>
+    <span class='st-card__p'>{{ p.price | money }}{% if p.compare_at_price > p.price %} <span class='st-card__rrp'>{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span> <s>{{ p.compare_at_price | money }}</s>{% endif %}</span>
   </a>
 </li>

@@ -25,7 +25,8 @@
 
   assign show_compare_price = false
   # Only the verified Italian RRP (Rewix) is ever shown crossed out, always labelled "RRP".
-  if compare_at_price > price and st_rrp_verified
+  # All suppliers' compare-at = Italian retail price (RRP/UVP), always labelled.
+  if compare_at_price > price
     assign show_compare_price = true
     # Siebentaschen: compare-at = designer RRP. Show it labelled, with the saving in %.
     assign st_saving_pct = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price
