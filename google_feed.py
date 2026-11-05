@@ -41,6 +41,9 @@ from xml.sax.saxutils import escape
 
 import requests
 
+from feed_enrich import (color_from_description, english_color, feed_title,
+                         google_category, material, size_system)
+
 API_VERSION = "2025-07"
 STOREFRONT = "https://siebentaschen.com"
 COUNTRY = "DE"
@@ -53,6 +56,7 @@ query Feed($cursor: String) {
     pageInfo { hasNextPage endCursor }
     nodes {
       id title handle vendor productType tags descriptionHtml onlineStoreUrl
+      seo { title }
       googleCategory: metafield(namespace: "mm-google-shopping", key: "google_product_category") { value }
       media(first: 10) { nodes { preview { image { url } } } }
       variants(first: 100) {
@@ -157,13 +161,18 @@ def build_item(product: dict, variant: dict, images: list[str], description: str
     barcode = (variant.get("barcode") or "").strip()
     gcat = (product.get("googleCategory") or {}).get("value")
     ptype = (product.get("productType") or "").strip()
-    color = option(variant, "color", "colour")
-    size = option(variant, "size", "shoe size", "accessory size")
+    color = english_color(option(variant, "color", "colour", "colore")) \
+        or color_from_description(description)
+    size = option(variant, "size", "shoe size", "accessory size", "taglia", "misura")
+    mat = material(description)
+    gcat = google_category(gcat, ptype, product["title"])
+    title = feed_title(product["title"], (product.get("seo") or {}).get("title"),
+                       product["vendor"].strip(), gender, age, color, mat)
 
     L = ["<item>",
          text("g:id", f"shopify_{COUNTRY}_{pid}_{vid}"),
          text("g:item_group_id", f"shopify_{COUNTRY}_{pid}"),
-         text("g:title", product["title"].strip()[:150]),
+         text("g:title", title),
          text("g:description", description),
          text("g:link", f"{url}?variant={vid}"),
          text("g:image_link", images[0])]
@@ -185,6 +194,11 @@ def build_item(product: dict, variant: dict, images: list[str], description: str
         L.append(text("g:color", color[:100]))
     if size:
         L.append(text("g:size", size[:100]))
+        system = size_system(size, description)
+        if system:
+            L.append(text("g:size_system", system))
+    if mat:
+        L.append(text("g:material", mat))
     L.append("</item>")
     return "".join(L)
 
