@@ -113,6 +113,38 @@ def english_color(raw: str | None) -> str | None:
 COLOR_LINE = re.compile(r"(?:^|\n)\s*(?:colou?r|colore)\s*:\s*([^\n]+)", re.I)
 
 
+_EN_COLORS = sorted({*IT_COLORS.values(), "Black", "White", "Grey", "Gray", "Blue", "Navy", "Red",
+                     "Green", "Brown", "Beige", "Pink", "Purple", "Yellow", "Orange", "Ecru",
+                     "Cream", "Ivory", "Camel", "Khaki", "Burgundy", "Bordeaux", "Gold", "Silver",
+                     "Multicolor", "Multicolour", "Light Blue", "Dark Blue", "Dark Grey",
+                     "Light Grey", "Olive", "Taupe", "Sand", "Tan", "Off White", "Off-White",
+                     "Petrol", "Lilac", "Fuchsia", "Turquoise", "Coral", "Mustard", "Bronze",
+                     "Anthracite", "Military Green", "Army Green", "Nude", "Powder"},
+                    key=len, reverse=True)
+_TITLE_COLOR = re.compile(r"\b(" + "|".join(map(re.escape, _EN_COLORS)) + r")\b", re.I)
+
+
+def color_from_title(title: str, brand: str = "") -> str | None:
+    t = title or ""
+    if brand and t.lower().startswith(brand.lower()):
+        t = t[len(brand):]          # "Off-White" the brand is not a colour
+    m = list(_TITLE_COLOR.finditer(t))
+    if not m:
+        return None
+    c = m[-1].group(1)
+    return "Grey" if c.lower() == "gray" else c.title()
+
+
+def color_from_tags(tags: list[str]) -> str | None:
+    """Supplier syncs often tag the colour ("Black", "grey", "Color_Green")."""
+    for t in tags or []:
+        v = re.sub(r"^(colou?r|colore)[_: ]+", "", t.strip(), flags=re.I)
+        en = english_color(v) if v.lower() in IT_COLORS else v
+        if en and _TITLE_COLOR.fullmatch(en):
+            return "Grey" if en.lower() == "gray" else en.title()
+    return None
+
+
 def color_from_description(desc: str) -> str | None:
     m = COLOR_LINE.search(desc or "")
     return english_color(m.group(1).strip()[:60]) if m else None
@@ -181,6 +213,22 @@ _HAS_GENDER = re.compile(r"\b(men's|women's|kids'|unisex|man|men|woman|women|jun
 SUFFIX = re.compile(r"\s*[|–-]\s*Siebentaschen\s*$", re.I)
 
 
+_COMPOSITION = re.compile(r"\s*[–,-]?\s*(?:\d{1,3}\s*%\s*[A-Za-zÀ-ÿ]+[\s,/-]*)+(?:Made In\b)?", re.I)
+
+
+def _clean_title(t: str) -> str:
+    t = re.sub(r"\bMade In\b\s*$", "", t.strip(), flags=re.I)
+    t = _COMPOSITION.sub(" ", t)                       # "– 56% Silk, 26% Polyur…"
+    t = re.sub(r"\b\d{1,3}\s*%", " ", t)              # stray "100%"
+    t = re.sub(r"\s*,\s*", " ", t)                     # commas add nothing in a title
+    t = re.sub(r"(\s*[–-]\s*){2,}", " – ", t)           # "– –"
+    t = re.sub(r"[\s,–-]+$", "", t).strip(" ,")        # dangling "–" / ","
+    t = re.sub(r"[\s,]*\bMade In\s*$", "", t, flags=re.I)
+    if t.isupper():
+        t = " ".join(w.capitalize() for w in t.split())
+    return re.sub(r"\s+", " ", t)
+
+
 def feed_title(title: str, seo_title: str | None, brand: str, gender: str, age: str,
                color: str | None, mat: str | None) -> str:
     t = html.unescape(title or "").strip()
@@ -191,6 +239,7 @@ def feed_title(title: str, seo_title: str | None, brand: str, gender: str, age: 
     if seo and brand and brand.lower()[:4] in seo.lower() and len(seo) > len(t):
         t = seo
     t = re.sub(r"\s+", " ", t)
+    t = _clean_title(t)
 
     # "Man"/"Woman" in supplier titles -> "Men's"/"Women's" (first occurrence only)
     t = _GENDER_RE.sub(lambda m: GENDER_WORDS[m.group(1).lower()], t, count=1)
@@ -207,4 +256,4 @@ def feed_title(title: str, seo_title: str | None, brand: str, gender: str, age: 
         t = f"{t} {color}"
     if mat and "/" not in mat and len(t) < 60 and mat.lower() not in t.lower():
         t = f"{t} – {mat}"
-    return re.sub(r"\s+", " ", t).strip()[:150]
+    return _clean_title(re.sub(r"\s+", " ", t).strip())[:150]

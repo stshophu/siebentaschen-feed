@@ -41,7 +41,7 @@ from xml.sax.saxutils import escape
 
 import requests
 
-from feed_enrich import (color_from_description, english_color, feed_title,
+from feed_enrich import (color_from_description, color_from_tags, color_from_title, english_color, feed_title,
                          google_category, material, size_system)
 
 API_VERSION = "2025-07"
@@ -49,6 +49,9 @@ STOREFRONT = "https://siebentaschen.com"
 COUNTRY = "DE"
 EXCLUDE_TAGS = {"no-google", "fabric-brand"}
 SECONDS_VENDOR = re.compile(r"2\s*°\s*choice", re.IGNORECASE)
+# Vendor values that are not real brands -> Google would treat them as wrong brand data.
+NOT_A_BRAND = {"unknown", "100% cashmere", "siebentaschen", "loro piana fabric",
+               "loro piana tessuto", "ermenegildo zegna fabric", "tessitura di novara"}
 
 PRODUCTS_QUERY = """
 query Feed($cursor: String) {
@@ -119,6 +122,8 @@ def clean_description(raw: str | None, fallback: str) -> str:
     t = re.sub(r"<br\s*/?>|</p>|</div>|</li>", "\n", t, flags=re.I)
     t = html.unescape(TAGS_RE.sub(" ", t))
     t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\(?https?://\S+\)?|www\.\S+", "", t)     # supplier back-office links etc.
+    t = re.sub(r"\bfake\b", "faux", t, flags=re.I)
     t = re.sub(r"\n\s*\n+", "\n", t).strip()
     return (t or fallback)[:5000]
 
@@ -162,7 +167,9 @@ def build_item(product: dict, variant: dict, images: list[str], description: str
     gcat = (product.get("googleCategory") or {}).get("value")
     ptype = (product.get("productType") or "").strip()
     color = english_color(option(variant, "color", "colour", "colore")) \
-        or color_from_description(description)
+        or color_from_description(description) \
+        or color_from_title(product["title"], product["vendor"].strip()) \
+        or color_from_tags(product.get("tags") or [])
     size = option(variant, "size", "shoe size", "accessory size", "taglia", "misura")
     mat = material(description)
     gcat = google_category(gcat, ptype, product["title"])
@@ -229,6 +236,9 @@ def main() -> int:
             continue
         if SECONDS_VENDOR.search(product.get("vendor") or ""):
             stats["skipped_second_choice"] += 1
+            continue
+        if (product.get("vendor") or "").strip().lower() in NOT_A_BRAND:
+            stats["skipped_not_a_brand"] += 1
             continue
         if not (product.get("vendor") or "").strip():
             stats["skipped_no_brand"] += 1
