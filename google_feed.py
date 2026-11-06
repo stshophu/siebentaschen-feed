@@ -226,7 +226,7 @@ def main() -> int:
         return 2
 
     items: list[str] = []
-    groups: list[tuple] = []   # (has_gtin, max_price, [item xml]) per product, for the reduced feed
+    groups: list[tuple] = []   # (product_id, has_gtin, max_price, [item xml]) per product, for the reduced feed
     stats = Counter()
     for product in shopify_products(store, token):
         stats["products_seen"] += 1
@@ -261,7 +261,8 @@ def main() -> int:
             group.append(xml)
             stats["items_written"] += 1
             stats["with_gtin"] += valid_gtin(v.get("barcode"))
-        groups.append((any(valid_gtin(v.get("barcode")) for v in in_stock),
+        groups.append((product["id"].rsplit("/", 1)[-1],
+                       any(valid_gtin(v.get("barcode")) for v in in_stock),
                        max(Decimal(v["price"]) for v in in_stock), group))
 
     print("--- Summary ---")
@@ -273,15 +274,35 @@ def main() -> int:
 
     write_feed(args.out, items)
     if args.small_out:
-        # Reduced feed: products with a valid GTIN first, then highest price;
-        # whole products only, until the item cap is reached.
+        # Reduced feed, kept stable between runs: every product already in the
+        # previous reduced feed stays as long as it is still in stock (it keeps
+        # its Google approval and click history). Only free slots are filled,
+        # with valid-GTIN products first, then highest price. Whole products only.
+        previous = previous_product_ids(args.small_out)
         small: list[str] = []
-        for _, _, group in sorted(groups, key=lambda g: (not g[0], -g[1])):
+        kept = added = 0
+        ranked = sorted(groups, key=lambda g: (g[0] not in previous, not g[1], -g[2]))
+        for pid, _, _, group in ranked:
             if len(small) + len(group) > args.small_max:
                 continue
             small.extend(group)
+            if pid in previous:
+                kept += 1
+            else:
+                added += 1
+        print(f"Reduced feed: kept {kept} products from the previous run, added {added}, "
+              f"dropped {len(previous) - kept} (sold out or excluded)")
         write_feed(args.small_out, small)
     return 0
+
+
+def previous_product_ids(path: str) -> set[str]:
+    """Shopify product IDs in an existing feed file (g:id = shopify_DE_<product>_<variant>)."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return set(re.findall(r"<g:id>shopify_[A-Z]{2}_(\d+)_\d+</g:id>", f.read()))
+    except FileNotFoundError:
+        return set()
 
 
 def write_feed(path: str, items: list[str]) -> None:
