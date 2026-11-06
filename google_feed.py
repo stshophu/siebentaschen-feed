@@ -10,6 +10,7 @@ on a schedule from the public URL of this repo:
 
 Rules (all driven by the Merchant Center misrepresentation clean-up, Oct 2026):
   * Products tagged `no-google` (e.g. "made with Loro Piana fabric") are left out.
+  * Women's lingerie (bras, briefs, underwear) and products tagged `no-google` are left out.
   * Factory seconds ("2° choice" brands) are left out.
   * No sale_price / strikethrough: <g:price> is the actual selling price only.
   * <g:gtin> only for a real GTIN (valid check digit, not an in-store range);
@@ -48,6 +49,9 @@ API_VERSION = "2025-07"
 STOREFRONT = "https://siebentaschen.com"
 COUNTRY = "DE"
 EXCLUDE_TAGS = {"no-google", "fabric-brand"}
+# Women's lingerie gets "Restricted adult content" / "Sexual interests" flags in
+# Merchant Center (Nov 2026) — keep it out after the misrepresentation suspension.
+LINGERIE_TYPE = re.compile(r"^women\b.*\b(bras?|briefs?|underwear|lingerie|thongs?|garters?)\b", re.IGNORECASE)
 SECONDS_VENDOR = re.compile(r"2\s*°\s*choice", re.IGNORECASE)
 # Vendor values that are not real brands -> Google would treat them as wrong brand data.
 NOT_A_BRAND = {"unknown", "100% cashmere", "siebentaschen", "loro piana fabric",
@@ -233,6 +237,9 @@ def main() -> int:
         tags = {t.strip().lower() for t in product.get("tags") or []}
         if tags & EXCLUDE_TAGS:
             stats["skipped_no_google"] += 1
+            continue
+        if LINGERIE_TYPE.search(product.get("productType") or ""):
+            stats["skipped_lingerie"] += 1
             continue
         if SECONDS_VENDOR.search(product.get("vendor") or ""):
             stats["skipped_second_choice"] += 1
