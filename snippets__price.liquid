@@ -160,15 +160,11 @@
     assign st_rrp_cents = selected_variant.compare_at_price
   endif
   assign st_rrp_min = selected_variant.price | times: 1.05
-  assign st_why_page = pages['why-our-prices-are-lower']
 -%}
 {%- if template.name == 'product' and st_rrp_cents > st_rrp_min -%}
   <p class="st-rrp-info">
     {%- if request.locale.iso_code == 'de' -%}UVP des Herstellers (Italien){%- else -%}Italian retail price{%- endif -%}:
     {{ st_rrp_cents | money }}
-    {%- if st_why_page != blank %}
-      · <a href="{{ st_why_page.url }}">{%- if request.locale.iso_code == 'de' -%}Warum günstiger?{%- else -%}Why lower?{%- endif -%}</a>
-    {%- endif -%}
   </p>
 {%- endif -%}
 {%- if has_volume_pricing -%}
