@@ -147,6 +147,30 @@
     {% render 'unit-price', price: unit_price, measurement: selected_variant.unit_price_measurement %}
   {%- endif -%}
 </div>
+{%- comment -%}
+  Siebentaschen: the Italian retail price as plain information on the product page only.
+  Never crossed out, no "-%" saving, no sale badge (Google misrepresentation policy).
+  Source: product metafield custom.rrp (Tluxy/Loxuno) or the Rewix compare-at price.
+{%- endcomment -%}
+{%- liquid
+  assign st_rrp_cents = 0
+  if product_resource.metafields.custom.rrp.value != blank
+    assign st_rrp_cents = product_resource.metafields.custom.rrp.value | times: 100 | round
+  elsif product_resource.tags contains 'RewixSync' and selected_variant.compare_at_price
+    assign st_rrp_cents = selected_variant.compare_at_price
+  endif
+  assign st_rrp_min = selected_variant.price | times: 1.05
+  assign st_why_page = pages['why-our-prices-are-lower']
+-%}
+{%- if template.name == 'product' and st_rrp_cents > st_rrp_min -%}
+  <p class="st-rrp-info">
+    {%- if request.locale.iso_code == 'de' -%}UVP des Herstellers (Italien){%- else -%}Italian retail price{%- endif -%}:
+    {{ st_rrp_cents | money }}
+    {%- if st_why_page != blank %}
+      · <a href="{{ st_why_page.url }}">{%- if request.locale.iso_code == 'de' -%}Warum günstiger?{%- else -%}Why lower?{%- endif -%}</a>
+    {%- endif -%}
+  </p>
+{%- endif -%}
 {%- if has_volume_pricing -%}
   <small
     ref="volumePricingNote"
@@ -178,6 +202,19 @@
     opacity: 0.55;
     margin-inline-end: -0.35em;
     text-decoration: none;
+  }
+  .st-rrp-info {
+    margin: 0.35em 0 0;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(var(--color-foreground-rgb) / 0.6);
+  }
+  .st-rrp-info a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .st-saving {
     font-size: 0.82em;
