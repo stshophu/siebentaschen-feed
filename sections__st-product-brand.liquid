@@ -34,14 +34,14 @@
             <a href='{{ q.url }}' style='display: contents;'>
               <div class='st-card__img'>
                 {{ q.featured_image | image_url: width: 640 | image_tag: loading: 'lazy', decoding: 'async', widths: '240,360,480,640', sizes: '(min-width: 1200px) 20vw, (min-width: 750px) 32vw, 62vw', alt: img_alt }}
-                {%- if q.compare_at_price > q.price -%}
+                {%- if false and q.compare_at_price > q.price -%}
                   {%- assign off = q.compare_at_price | minus: q.price | times: 100 | divided_by: q.compare_at_price -%}
                   <span class='st-card__off'>−{{ off }}%</span>
                 {%- endif -%}
               </div>
               <span class='st-card__brand'>{{ q.vendor }}</span>
               <h3 class='st-card__t'>{{ q.title }}</h3>
-              <span class='st-card__p'>{{ q.price | money }}{% if q.compare_at_price > q.price %} <span class='st-card__rrp'>{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span> <s>{{ q.compare_at_price | money }}</s>{% endif %}</span>
+              <span class='st-card__p'>{{ q.price | money }}{% if false and q.compare_at_price > q.price %} <span class='st-card__rrp'>{% if request.locale.iso_code == 'de' %}UVP{% else %}RRP{% endif %}</span> <s>{{ q.compare_at_price | money }}</s>{% endif %}</span>
             </a>
           </li>
         {%- endfor -%}
