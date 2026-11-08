@@ -13,12 +13,12 @@
       "type": "st-home-hero",
       "settings": {
         "number": "01",
-        "seo_heading": "Designer outlet for past-season luxury fashion",
+        "seo_heading": "Designer fashion for women and men",
         "label": "Campaign",
         "image": "shopify://shop_images/Herno_women_men_jackets.webp",
         "wordmark": "Herno",
-        "heading": "Cashmere season, past-season prices.",
-        "text": "Herno knitwear and outerwear from earlier collections, below original retail.",
+        "heading": "Cashmere season.",
+        "text": "Herno outerwear and knitwear for women and men.",
         "button_label": "Shop Herno",
         "link": "shopify://collections/herno",
         "sub_title": "Men's coats",
@@ -27,11 +27,46 @@
         "top": 32
       }
     },
+    "st_edits": {
+      "type": "st-home-edits",
+      "settings": {
+        "number": "02",
+        "title": "The AW26 edits",
+        "hub_label": "All 17 collections",
+        "hub_link": "shopify://pages/curated-collections",
+        "show_text": false,
+        "big": "statement-coats",
+        "big_text": "",
+        "side": [
+          "burgundy-red",
+          "shades-of-green"
+        ],
+        "row": [
+          "the-leather-edit",
+          "the-fur-edit",
+          "velvet-satin-silk",
+          "the-new-tailoring"
+        ],
+        "more": [
+          "purple-plum-lilac",
+          "brown-camel-cognac",
+          "luxury-down-jackets",
+          "the-boot-edit",
+          "turtlenecks",
+          "the-cashmere-edit",
+          "the-vest-edit",
+          "animal-print",
+          "designer-gifts-under-250",
+          "designer-under-150"
+        ],
+        "top": 120
+      }
+    },
     "st_new": {
       "type": "st-home-products",
       "settings": {
-        "number": "02",
-        "title": "New in",
+        "number": "03",
+        "title": "New in — Women",
         "collection": "new-arrivals-women",
         "layout": "carousel",
         "max": 16,
@@ -43,67 +78,20 @@
         "top": 120
       }
     },
-    "st_edits": {
-      "type": "st-home-edits",
-      "settings": {
-        "number": "03",
-        "title": "The AW26 edits",
-        "hub_label": "All 17 collections",
-        "hub_link": "shopify://pages/curated-collections",
-        "big": "statement-coats",
-        "big_text": "Wool coats, trenches and parkas from Max Mara, Jil Sander, Prada and Woolrich",
-        "side": [
-          "the-cashmere-edit",
-          "burgundy-red"
-        ],
-        "row": [
-          "luxury-down-jackets",
-          "the-leather-edit",
-          "the-boot-edit",
-          "the-fur-edit"
-        ],
-        "more": [
-          "brown-camel-cognac",
-          "shades-of-green",
-          "purple-plum-lilac",
-          "velvet-satin-silk",
-          "turtlenecks",
-          "the-new-tailoring",
-          "the-vest-edit",
-          "animal-print",
-          "designer-gifts-under-250",
-          "designer-under-150"
-        ],
-        "top": 120
-      }
-    },
-    "st_knit": {
+    "st_new_men": {
       "type": "st-home-products",
       "settings": {
         "number": "04",
-        "title": "Designer knitwear",
-        "collection": "women-knitwear",
+        "title": "New in — Men",
+        "collection": "new-arrivals-men",
         "layout": "carousel",
-        "max": 15,
+        "max": 16,
         "per_view": 5,
         "columns": 4,
-        "link_label": "View all",
+        "link_label": "All [count] pieces",
         "hide_sold_out": true,
         "accent": "#c2410c",
-        "top": 120
-      }
-    },
-    "st_brands": {
-      "type": "st-home-brands",
-      "settings": {
-        "number": "05",
-        "title": "Designer brands A–Z",
-        "link_collections": true,
-        "exclude": "Add, Loro Piana Fabric, Loro Piana Tessuto, Ermenegildo Zegna Fabric, 100% Cashmere, Dsquared2 2°choice, Givenchy 2° Choice, Siebentaschen, Unknown, Tessitura di Novara, Versace Home",
-        "new_brands": "Autore, Alpha Studio, Herno",
-        "new_label": "new arrivals this week",
-        "accent": "#c2410c",
-        "top": 120
+        "top": 96
       }
     },
     "st_stories": {
@@ -112,16 +100,16 @@
         "s1": {
           "type": "story",
           "settings": {
-            "collection": "max-mara",
-            "title": "Max Mara — the coat, from past seasons",
+            "collection": "brunello-cucinelli",
+            "title": "Brunello Cucinelli — cashmere from Solomeo",
             "size": "wide"
           }
         },
         "s2": {
           "type": "story",
           "settings": {
-            "collection": "brunello-cucinelli",
-            "title": "Brunello Cucinelli — cashmere from Solomeo",
+            "collection": "dolce-gabbana",
+            "title": "Dolce & Gabbana — Sicilian glamour after dark",
             "size": "narrow"
           }
         }
@@ -131,17 +119,64 @@
         "s2"
       ],
       "settings": {
-        "number": "06",
+        "number": "05",
         "title": "Brand stories",
+        "top": 120
+      }
+    },
+    "st_knit": {
+      "type": "st-home-products",
+      "settings": {
+        "number": "06",
+        "title": "The Cashmere Edit",
+        "collection": "the-cashmere-edit",
+        "layout": "carousel",
+        "max": 15,
+        "per_view": 5,
+        "columns": 4,
+        "link_label": "All [count] pieces",
+        "hide_sold_out": true,
+        "accent": "#c2410c",
+        "top": 120
+      }
+    },
+    "st_gifts": {
+      "type": "st-home-products",
+      "settings": {
+        "number": "07",
+        "title": "Designer gifts under €250",
+        "collection": "designer-gifts-under-250",
+        "layout": "carousel",
+        "max": 15,
+        "per_view": 5,
+        "columns": 4,
+        "per_brand": 2,
+        "min_price": 75,
+        "link_label": "All [count] gifts",
+        "hide_sold_out": true,
+        "accent": "#c2410c",
+        "top": 120
+      }
+    },
+    "st_brands": {
+      "type": "st-home-brands",
+      "settings": {
+        "number": "08",
+        "title": "Designer brands A–Z",
+        "link_collections": true,
+        "exclude": "Add, Loro Piana Fabric, Loro Piana Tessuto, Ermenegildo Zegna Fabric, 100% Cashmere, Dsquared2 2°choice, Givenchy 2° Choice, Siebentaschen, Unknown, Tessitura di Novara, Versace Home",
+        "new_brands": "Autore, Alpha Studio, Herno",
+        "new_label": "new arrivals this week",
+        "accent": "#c2410c",
         "top": 120
       }
     },
     "st_about": {
       "type": "st-home-about",
       "settings": {
-        "number": "07",
+        "number": "09",
         "heading": "About Siebentaschen",
-        "text": "<p>Siebentaschen is an online designer outlet for past-season luxury fashion. We source new, genuine designer pieces through established Italian wholesale distributors and price them below the original retail price.</p><p>Shop women’s and men’s <a href=\"/collections/statement-coats\">designer coats</a>, <a href=\"/collections/the-cashmere-edit\">cashmere knitwear</a>, <a href=\"/collections/the-new-tailoring\">tailoring</a>, <a href=\"/collections/the-boot-edit\">boots</a> and accessories from Max Mara, Brunello Cucinelli, Herno, Prada, Jacquemus, Maison Margiela and many more designers — shipped across Europe from our partners in Italy and our warehouse in Hanau, Germany.</p>",
+        "text": "<p>Siebentaschen is an independent online store for designer fashion, based in Hanau, Germany. We source new designer pieces through established Italian wholesale distributors.</p><p>Shop women’s and men’s <a href=\"/collections/statement-coats\">designer coats</a>, <a href=\"/collections/the-cashmere-edit\">cashmere knitwear</a>, <a href=\"/collections/the-new-tailoring\">tailoring</a>, <a href=\"/collections/the-boot-edit\">boots</a> and accessories from Max Mara, Brunello Cucinelli, Herno, Prada, Jacquemus, Maison Margiela and many more designers — shipped across Europe from our partners in Italy and our warehouse in Hanau, Germany.</p>",
         "news_heading": "New arrivals in your inbox",
         "news_button": "Subscribe",
         "news_success": "Thank you — you are subscribed.",
@@ -152,11 +187,13 @@
   },
   "order": [
     "st_hero",
-    "st_new",
     "st_edits",
-    "st_knit",
-    "st_brands",
+    "st_new",
+    "st_new_men",
     "st_stories",
+    "st_knit",
+    "st_gifts",
+    "st_brands",
     "st_about"
   ]
 }
