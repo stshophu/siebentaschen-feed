@@ -19,6 +19,16 @@
 >
 
 {%- liquid
+  # Siebentaschen: strip authenticity/guarantee marketing from SEO descriptions (Google misrepresentation)
+  assign page_description = page_description
+    | replace: ' — European delivery & guaranteed authenticity.', ', delivered across Europe.'
+    | replace: ' Authentic luxury fashion with European delivery.', ', delivered across Europe.'
+    | replace: 'Shop authentic luxury at Siebentaschen with European delivery.', 'Shop at Siebentaschen, delivered across Europe.'
+    | replace: 'Shop authentic ', 'Shop '
+    | replace: 'guaranteed authenticity', ''
+    | replace: 'Authentic luxury fashion', 'Designer fashion'
+-%}
+{%- liquid
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
   assign og_type = 'website'
@@ -110,63 +120,10 @@
   {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
 </title>
 
-{%- if template contains 'product' and product.metafields.deeplumen.ap_deployed.value == true and product.metafields.deeplumen.ap_canonical_url.value != blank -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="{{ product.metafields.deeplumen.ap_canonical_url.value | escape }}">
-  {%- endif -%}
-  {%- if product.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="{{ product.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ product.title | escape }}">
-  {%- endif -%}
-{%- elsif template contains 'collection' and collection.metafields.deeplumen.ap_deployed.value == true and collection.metafields.deeplumen.ap_canonical_url.value != blank -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="{{ collection.metafields.deeplumen.ap_canonical_url.value | escape }}">
-  {%- endif -%}
-  {%- if collection.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="{{ collection.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ collection.title | escape }}">
-  {%- endif -%}
-{%- elsif template contains 'article' and article.metafields.deeplumen.ap_deployed.value == true and article.metafields.deeplumen.ap_canonical_url.value != blank -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="{{ article.metafields.deeplumen.ap_canonical_url.value | escape }}">
-  {%- endif -%}
-  {%- if article.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="{{ article.metafields.deeplumen.ap_canonical_url.value | escape }}" title="{{ article.title | escape }}">
-  {%- endif -%}
-{%- elsif template contains 'product' and product.metafields.deeplumen.ap_deployed.value == true -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="https://{{ request.host }}/a/shop/products/{{ product.handle }}">
-  {%- endif -%}
-  {%- if product.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/products/{{ product.handle }}" title="{{ product.title | escape }}">
-  {%- endif -%}
-{%- elsif template contains 'collection' and collection.metafields.deeplumen.ap_deployed.value == true -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="https://{{ request.host }}/a/shop/collections/{{ collection.handle }}">
-  {%- endif -%}
-  {%- if collection.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/collections/{{ collection.handle }}" title="{{ collection.title | escape }}">
-  {%- endif -%}
-{%- elsif template contains 'article' and article.metafields.deeplumen.ap_deployed.value == true -%}
-  {%- if shop.metafields.deeplumen.origin_canonical_revision.value > 0 and shop.metafields.deeplumen.origin_canonical_generation.value != blank and shop.metafields.deeplumen.origin_canonical_off.value == true -%}
-    <link rel="canonical" href="{{ canonical_url | escape }}">
-  {%- else -%}
-  <link rel="canonical" href="https://{{ request.host }}/a/shop/blogs/{{ article.handle }}">
-  {%- endif -%}
-  {%- if article.metafields.deeplumen.ap_alternate_enabled.value == true -%}
-    <link rel="alternate" type="text/html" href="https://{{ request.host }}/a/shop/blogs/{{ article.handle }}" title="{{ article.title | escape }}">
-  {%- endif -%}
-{%- else -%}
-  <link rel="canonical" href="{{ canonical_url }}">
-{%- endif -%}
+<link
+  rel="canonical"
+  href="{{ canonical_url }}"
+>
 
 {% if page_description %}
   <meta
