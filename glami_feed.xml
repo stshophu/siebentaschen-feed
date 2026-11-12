@@ -6692,8 +6692,6 @@ Made in Italy]]></DESCRIPTION>
 <PRODUCTNAME><![CDATA[19:13 Dresscode Tulle Mini Dress]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 96% Cotton 4% Elastane
 
- Size Format: IT
-
  Lining: Polyester
 
  Back zip closure
@@ -6734,8 +6732,6 @@ Made in Italy]]></DESCRIPTION>
 <PRODUCTNAME><![CDATA[19:13 Dresscode Tulle Mini Dress]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 96% Cotton 4% Elastane
 
- Size Format: IT
-
  Lining: Polyester
 
  Back zip closure
@@ -6775,8 +6771,6 @@ Made in Italy]]></DESCRIPTION>
 <ITEMGROUP_ID>15415306879316</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[19:13 Dresscode Tulle Mini Dress]]></PRODUCTNAME>
 <DESCRIPTION><![CDATA[Composition: 96% Cotton 4% Elastane
-
- Size Format: IT
 
  Lining: Polyester
 
@@ -16392,6 +16386,39 @@ Made in Italy]]></DESCRIPTION>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 <EAN>8111209856007</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>SHO AU 1 SK FW25 16915 T_45</ITEM_ID>
+<ITEMGROUP_ID>15427276243284</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autry Reelwind Sneakers]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Leather
+
+ Inner: Fabric
+
+ Insole: 100% Leather
+
+ Sole: 100% Rubber
+
+ Round toe
+
+ Lace-up fastening
+
+ Made in Indonesia
+
+ Gender: MEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autry-reelwind-sneakers</URL>
+<URL_SIZE>https://siebentaschen.com/products/autry-reelwind-sneakers?variant=58302340333908</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e9fae174135a0bd5911ed70f7376482f.jpg?v=1793872475</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/35a7b7bf9c8dadeefb3bb4d411c4df82.jpg?v=1793878403</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/47302565c11840f424aecd28e1b46a01.jpg?v=1793876819</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/49287d93ea223fd4756272ae03cbf1d0.jpg?v=1793874563</IMGURL_ALTERNATIVE>
+<PRICE_VAT>792.68</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTRY]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Sneakersy męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[45]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>8056713275206</EAN>
 </SHOPITEM>
 <SHOPITEM>
 <ITEM_ID>SHO AU 1 SK FW25 17026 T_43</ITEM_ID>
@@ -31205,6 +31232,37 @@ Made in Italy]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[BRUNELLO CUCINELLI]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Buty damskie | Baleriny damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>SHO BC 2 FL SS25 17325 T_39</ITEM_ID>
+<ITEMGROUP_ID>15490056323412</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Brunello Cucinelli Suede Flats]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Leather
+
+ Inner: 100% Leather
+
+ Insole: 100% Leather
+
+ Sole: 100% Leather
+
+ Pointed toe
+
+ Elasticated side inserts
+
+ Made in Italy
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/brunello-cucinelli-suede-flats</URL>
+<URL_SIZE>https://siebentaschen.com/products/brunello-cucinelli-suede-flats?variant=58302372938068</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5a291656c63ca4f9f7070873c89e516e.jpg?v=1793872249</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/215efb52453fbd0e9dacab049c395cca.jpg?v=1793873965</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6e88b1c214b4d67073cb67462ce58460.jpg?v=1793872139</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3236.79</PRICE_VAT>
+<MANUFACTURER><![CDATA[BRUNELLO CUCINELLI]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Buty damskie | Baleriny damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[39]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
@@ -64614,25 +64672,6 @@ Dimensions: 28 x 13.5 cm]]></DESCRIPTION>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
-<ITEM_ID>m34mt700g-nero-XXL</ITEM_ID>
-<ITEMGROUP_ID>15662910996820</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Moose knuckles Man T-Shirt Dalton Tee Black]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Moose Knuckles Daltoon Tee – black, long-sleeved cotton T-shirt with a logo print on the front and gold-coloured stitched logo lettering, plus a logo patch on the back of the collar.]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/moose-knuckles-man-t-shirt-dalton-tee-black</URL>
-<URL_SIZE>https://siebentaschen.com/products/moose-knuckles-man-t-shirt-dalton-tee-black?variant=56673691926868</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19168-1701121637.png?v=1793872808</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19168-805859234.png?v=1793877538</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19168-1221708890.png?v=1793870746</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19168-373349760.png?v=1793873307</IMGURL_ALTERNATIVE>
-<PRICE_VAT>440.34</PRICE_VAT>
-<MANUFACTURER><![CDATA[Moose Knuckles]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | T-shirty i koszulki męskie | Koszulki męskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XXL]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
-<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[czarny]]></VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
 <ITEM_ID>m39mv453-495-nero-M</ITEM_ID>
 <ITEMGROUP_ID>15662911750484</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Moose knuckles Man Sleeveless Kilcona Jackets Black]]></PRODUCTNAME>
@@ -68570,6 +68609,40 @@ Made in Italy]]></DESCRIPTION>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
+<ITEM_ID>COT SO 2 DB FW26 17473 T_38</ITEM_ID>
+<ITEMGROUP_ID>15742375362900</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Studio Mastro Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Two side pockets
+
+ V neckline
+
+ Double-breasted
+
+ Viscose lining
+
+ Adorned with tailored pick stitch
+
+ Long kimono sleeves
+
+ The model is wearing a size 40 (IT) and is 178 cm tall, with 60 cm waist and 89 cm hips
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-studio-mastro-wool-coat</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-studio-mastro-wool-coat?variant=58302184653140</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/d6dd4049a489606f0c44ba2897069671.jpg?v=1793879327</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/096464c0d4dc8d99be7a1e05950dec5e.jpg?v=1793874234</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ec059d32757a432f8d1a07df3d10ca42.jpg?v=1793871993</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/ff2e089856264ab339e25b14b93d69b6.jpg?v=1793871971</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3214.77</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA STUDIO]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
 <ITEM_ID>COT SO 2 DB FW26 17473 T_40</ITEM_ID>
 <ITEMGROUP_ID>15742375362900</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Max Mara Studio Mastro Wool Coat]]></PRODUCTNAME>
@@ -68861,6 +68934,39 @@ Made in Italy]]></DESCRIPTION>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
+<ITEM_ID>COT WK 2 DB FW26 17491 T_44</ITEM_ID>
+<ITEMGROUP_ID>15742378115412</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Resina Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 100% Virgin wool
+
+ Long sleeves
+
+ Detachable matching belt
+
+ Straight cut
+
+ Double-breasted
+
+ Welt pockets on the sides
+
+ Wide lapel collar
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-resina-coat-2</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-resina-coat-2?variant=58302216700244</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5b4ff5a2f4b1846d4a003f6dc23e2353.jpg?v=1793870010</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/acab3e12ee9c125e86409eeef509aedb.jpg?v=1793873159</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/a8f1b3a7417c68213848e0424419f0a6.jpg?v=1793873396</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/6e687c3caa84431f49a60273e304af26.jpg?v=1793871502</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/7ad0a2297b3d1b4042c89045d23c416f.jpg?v=1793873103</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2730.36</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
 <ITEM_ID>COT WK 2 DB FW26 17507 T_42</ITEM_ID>
 <ITEMGROUP_ID>15742380147028</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Max Mara Weekend Resina Coat]]></PRODUCTNAME>
@@ -68915,6 +69021,39 @@ Made in Italy]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT WK 2 LC FW26 17486 T_38</ITEM_ID>
+<ITEMGROUP_ID>15742381785428</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Operoso Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 10% Polyamide 90% Virgin wool
+
+ Long sleeves
+
+ Two side pockets
+
+ Removible matching belt
+
+ Dropped shoulders
+
+ Central rear slit
+
+ Wide lapel collar
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-operoso-coat</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-operoso-coat?variant=58302227186004</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/674399efaef0e39d75eb0c82d95f77a8.jpg?v=1793874140</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8cd27bec68222e8dbb042adbad498521.jpg?v=1793879223</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/3ad7fabb0c04a16db8655b3a25cdff53.jpg?v=1793876304</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/5fa3fe7fd47d8afa066749c44f4231dc.jpg?v=1793871152</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/464426c57a1519fec5d7a27659565fd1.jpg?v=1793876915</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2334.01</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
@@ -69151,6 +69290,36 @@ Made in Italy]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>COT WK 2 LC FW26 17510 T_42</ITEM_ID>
+<ITEMGROUP_ID>15742384931156</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Max Mara Weekend Tempera Wool Coat]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Composition: 22% Alpaca 15% Mohair 15% Polyamide 48% Wool
+
+ Long sleeves
+
+ Fully lined
+
+ Two side pockets
+
+ Detachable matching belt
+
+ Lapel collar
+
+ Gender: WOMEN]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/max-mara-weekend-tempera-wool-coat-1</URL>
+<URL_SIZE>https://siebentaschen.com/products/max-mara-weekend-tempera-wool-coat-1?variant=58302230036820</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/2b90e9aa95c8e6b9c84bf830077ae170.jpg?v=1793874123</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e6c26dd714af8dda55709cd79ba43589.jpg?v=1793870118</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/dd47039a59964c90b2a519eadd7c68c0.jpg?v=1793873312</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/bedf2290d0c52ee69592dbf327a97dcf.jpg?v=1793879202</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3016.60</PRICE_VAT>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
@@ -74266,7 +74435,7 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/4147e115952404ed1c60e16e2400b226.jpg?v=1793872845</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/e47ba842c4fc4cd5bf14c713b8c581c5.jpg?v=1793871611</IMGURL_ALTERNATIVE>
 <PRICE_VAT>3633.14</PRICE_VAT>
-<MANUFACTURER><![CDATA[Chloé]]></MANUFACTURER>
+<MANUFACTURER><![CDATA[CHLOE]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Akcesoria damskie | Torby i torebki damskie | Torebki damskie]]></CATEGORYTEXT>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
@@ -76948,24 +77117,6 @@ Made in Italy]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Amiri]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Bluzy męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XXL]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
-<PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[czarny]]></VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
-<ITEM_ID>amjyhd10-nero-XL</ITEM_ID>
-<ITEMGROUP_ID>15848097481044</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Amiri Man Sweatshirt Bones Stacked Black]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Amiri cotton hoodie with a single large front pocket, rubberized logo on the front, “bones stacked” pattern on the sleeves, and ribbed waist and cuffs]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/amiri-man-sweatshirt-bones-stacked-black</URL>
-<URL_SIZE>https://siebentaschen.com/products/amiri-man-sweatshirt-bones-stacked-black?variant=57463832478036</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19563-1361000137.png?v=1793873876</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19563-986725136.png?v=1793875827</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/product-19563-2131684853.png?v=1793872402</IMGURL_ALTERNATIVE>
-<PRICE_VAT>1329.90</PRICE_VAT>
-<MANUFACTURER><![CDATA[Amiri]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Bluzy męskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[XL]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
 <PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[czarny]]></VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
@@ -86354,32 +86505,6 @@ The sneakers are second choice, they come complete with box and dustbag, but in 
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
-<ITEM_ID>231437_41</ITEM_ID>
-<ITEMGROUP_ID>15918488912212</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Saint Laurent Tribute Nu Pieds Sandals Black]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Saint Laurent 'Tribute Nu Pieds' black sandals in cuir leather.
-
- Colour: Black
-
- Composition: 100% Calf leather (bos taurus)
-
- Made in Italy
-
- Style code: 571952BDA001000]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/saint-laurent-tribute-nu-pieds-sandals-black</URL>
-<URL_SIZE>https://siebentaschen.com/products/saint-laurent-tribute-nu-pieds-sandals-black?variant=57980060467540</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/tribute-nu-pieds-sandals_436a0a50-eb8a-4d7e-994f-bbb157f0426a.jpg?v=1793873722</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/tribute-nu-pieds-sandals_9f6980cc-c9f9-46db-b115-0d42a1d59f33.jpg?v=1793873814</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/tribute-nu-pieds-sandals.jpg?v=1793877395</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/tribute-nu-pieds-sandals_079f8dd6-e81d-4608-9a26-4de8ab46ffd1.jpg?v=1793875616</IMGURL_ALTERNATIVE>
-<PRICE_VAT>2686.32</PRICE_VAT>
-<MANUFACTURER><![CDATA[Saint Laurent]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Buty damskie | Sandały damskie]]></CATEGORYTEXT>
-<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[41]]></VAL></PARAM>
-<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
 <ITEM_ID>313280_36</ITEM_ID>
 <ITEMGROUP_ID>15918495695188</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[MM6 Maison Margiela Anatomic Ankle Boot Black]]></PRODUCTNAME>
@@ -87138,6 +87263,33 @@ The sneakers are second choice, they come complete with box and dustbag, but in 
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
+<ITEM_ID>326541_40</ITEM_ID>
+<ITEMGROUP_ID>15918516699476</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Balenciaga Strike Amphibian Boots Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA['Strike' amphibian in matt calf leather, extra rounded toe, front lace closure and side zip, and notched rubber sole.
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 844967WA9601000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/balenciaga-strike-amphibian-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/balenciaga-strike-amphibian-black?variant=57980143501652</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/leather-boots-with-maxi-rubber-sole_ea8d30a6-f1de-462e-b9d3-8199c601bc51.jpg?v=1793874147</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/leather-boots-with-maxi-rubber-sole_d033ca7c-be1d-4566-b370-2142c0b2f3cb.jpg?v=1793874437</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/leather-boots-with-maxi-rubber-sole_32e8f30b-d05b-4613-809a-0c8796ec6764.jpg?v=1793873634</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/leather-boots-with-maxi-rubber-sole_0015a14e-1b63-4957-afe4-217d585655a3.jpg?v=1793876380</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/leather-boots-with-maxi-rubber-sole.jpg?v=1793875858</IMGURL_ALTERNATIVE>
+<PRICE_VAT>4315.72</PRICE_VAT>
+<MANUFACTURER><![CDATA[Balenciaga]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Botki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
 <ITEM_ID>326541_41</ITEM_ID>
 <ITEMGROUP_ID>15918516699476</ITEMGROUP_ID>
 <PRODUCTNAME><![CDATA[Balenciaga Strike Amphibian Boots Black]]></PRODUCTNAME>
@@ -87299,6 +87451,438 @@ The sneakers are second choice, they come complete with box and dustbag, but in 
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Koszule męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40 cm]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>INT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_6</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023663956</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[6]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_7</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023696724</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[7]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_8</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023729492</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[8]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_8.5</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023762260</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[8.5]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_9</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023795028</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[9]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_9.5</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023827796</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[9.5]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_10</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023860564</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[10]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344013_11</ITEM_ID>
+<ITEMGROUP_ID>15918595277140</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' loafers feature a structured interpretation of the classic slip-on silhouette. Made of soft black calf leather, the model is defined by a characteristic apron toe with curled seams that give tactile depth to the upper. The silver metal detail in the shape of a 'Morsetto' embellishes the mask, recalling the historical codes of the brand. The construction is completed with leather interiors, a padded insole with vintage 1953 label and a smooth leather bottom. An essential garment that celebrates the purity of the manufacture through a minimal and timeless aesthetic. - Silver metal 'Morsetto' detail - Tray with curled processing - Leather sole with low heel - Padded insole with label 1953 - Slip-on model
+
+ Colour: Black
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 871668AAF3Q1000]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-black?variant=57982023893332</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bff1bc09-9fa8-4671-9101-8bfa329ed21a.jpg?v=1793874454</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_bf43618b-70b7-4e6a-a8ae-bd1b866359e3.jpg?v=1793870763</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_a246555b-4d4c-4b9c-bc47-c2fac6f72db9.jpg?v=1793877668</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers.jpg?v=1793874179</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/gucci-lugano-leather-loafers_0abb0999-ff1b-41ec-887d-723735368904.jpg?v=1793873069</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[11]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_6</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982023958868</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[6]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_7</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982023991636</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[7]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_8</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024024404</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[8]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_8.5</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024057172</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[8.5]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_9</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024089940</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[9]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_9.5</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024122708</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[9.5]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_10</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024155476</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[10]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>344010_11</ITEM_ID>
+<ITEMGROUP_ID>15918595375444</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Gucci Lugano Loafers Brown]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The 'Gucci Lugano' moccasins redefines the codes of masculine elegance through impeccable sartorial construction. Made of fine dark brown calf leather, the model features a characteristic curled tray that gives texture and volume to the silhouette. The slip-on design is embellished with the iconic silver metal 'Morsetto' detail on the upper, an unmistakable symbol of the Maison's manufacture. The structure is completed by a leather sole with low laminated heel and lined interiors for superior comfort. An essential accessory that celebrates the purity of handcrafted design through a sophisticated and timeless aesthetic. - Silhouette slip-on - Smooth calf leather - Tray with curled processing - Silver metal 'Morsetto' detail - Leather sole with low heel - Leather-lined interior with padded insole for extra comfort
+
+ Colour: Brown
+
+ Composition: 100% Calfskin leather (Bos Taurus)
+
+ Made in Italy
+
+ Style code: 864119AAF3Q2140]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/gucci-lugano-loafers-brown</URL>
+<URL_SIZE>https://siebentaschen.com/products/gucci-lugano-loafers-brown?variant=57982024188244</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_0a691acf-b0a9-4b08-90f3-198d6939ccd0.jpg?v=1793871199</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_900b7f0c-9cc6-4f8e-90c7-d8822a1b4f55.jpg?v=1793872831</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_d2f4ae02-ddfa-4d53-9107-d3c3bcd6c396.jpg?v=1793876605</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers_1ca4e3d7-ffcf-4cfd-91b3-271de1b9b0a2.jpg?v=1793877395</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/lugano-leather-loafers.jpg?v=1793873828</IMGURL_ALTERNATIVE>
+<PRICE_VAT>3523.04</PRICE_VAT>
+<MANUFACTURER><![CDATA[Gucci]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Buty męskie | Mokasyny męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[11]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>EU</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
@@ -87494,6 +88078,34 @@ The sneakers are second choice, they come complete with box and dustbag, but in 
 <MANUFACTURER><![CDATA[Moncler]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[4]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>343349_5</ITEM_ID>
+<ITEMGROUP_ID>15918598357332</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Moncler Orvelle Down Jacket Black]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[The Moncler 'Orvelle' down jacket redefines contemporary outerwear through a structured silhouette and iconic details. Made of technical fabric with a sophisticated matte finish, this outerwear offers superior thermal insulation thanks to the feather padding. The design is distinguished by the adjustable hood, embellished with a bold contrast logo framing the neck. The construction features a front zip closure, side pockets and the unmistakable felt patch on the left sleeve. An essential garment that celebrates the purity of the manufacture through a minimal and performing aesthetic. - Matte finish - Adjustable hood with Moncler contrast embossed lettering - Front zip closure - Zipped side pockets - Felt logo patch on the sleeve - Elasticated cuffs with snap buttons
+
+ Colour: Black
+
+ Composition: 100% Polyester
+
+ Made in Italy
+
+ Style code: L20911A00222597YW999]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/moncler-orvelle-down-jacket-black</URL>
+<URL_SIZE>https://siebentaschen.com/products/moncler-orvelle-down-jacket-black?variant=57982044799316</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket.jpg?v=1793878593</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket_6f8df655-a155-4da5-81da-10d32452c750.jpg?v=1793877802</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket_69f3cf3b-f366-417e-9af6-c008d8028488.jpg?v=1793870845</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket_487084b7-7d71-4450-b478-9d4ddad99e86.jpg?v=1793873553</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket_23d61b1f-0bc5-4425-b1c9-6cf9cae189ce.jpg?v=1793872463</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/orvelle-down-jacket_91cb600d-b55e-49e4-bfe1-26bef2153d0e.jpg?v=1793870830</IMGURL_ALTERNATIVE>
+<PRICE_VAT>6341.47</PRICE_VAT>
+<MANUFACTURER><![CDATA[Moncler]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[5]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
@@ -87848,30 +88460,6 @@ The sneakers are second choice, they come complete with box and dustbag, but in 
 <PRICE_VAT>8521.35</PRICE_VAT>
 <MANUFACTURER><![CDATA[Dolce & Gabbana]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Akcesoria damskie | Torby i torebki damskie | Torebki damskie]]></CATEGORYTEXT>
-<DELIVERY_DATE>0</DELIVERY_DATE>
-</SHOPITEM>
-<SHOPITEM>
-<ITEM_ID>249831_U</ITEM_ID>
-<ITEMGROUP_ID>15918604484948</ITEMGROUP_ID>
-<PRODUCTNAME><![CDATA[Prada Re-Nylon Logo Backpack Black]]></PRODUCTNAME>
-<DESCRIPTION><![CDATA[Re-nylon backpack with metal triangle logo at the front and adjustable shoulder straps. SUSTAINABLE: This product is made using Re-Nylon, a regenerated yarn made from recycled and purified plastic collected in oceans, fishery nets and textile fibers.
-
- Colour: Black
-
- Composition: 100% Polyamide
-
- Made in Italy
-
- Style code: 2VZ135VHOL2DMGF0002]]></DESCRIPTION>
-<URL>https://siebentaschen.com/products/prada-re-nylon-logo-backpack-black</URL>
-<URL_SIZE>https://siebentaschen.com/products/prada-re-nylon-logo-backpack-black?variant=57982074847572</URL_SIZE>
-<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/re-nylon-logo-backpack_0935d1fd-36e8-49b4-876a-0538f8df8a89.jpg?v=1793879191</IMGURL>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/re-nylon-logo-backpack_341c8171-bc3f-47ca-9a17-74342f5fb5a2.jpg?v=1793879346</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/re-nylon-logo-backpack.jpg?v=1793871618</IMGURL_ALTERNATIVE>
-<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/re-nylon-logo-backpack_b71416a0-2e2d-4be6-adf5-b7c78efbd10f.jpg?v=1793874869</IMGURL_ALTERNATIVE>
-<PRICE_VAT>8323.18</PRICE_VAT>
-<MANUFACTURER><![CDATA[Prada]]></MANUFACTURER>
-<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Akcesoria męskie | Plecaki męskie]]></CATEGORYTEXT>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 </SHOPITEM>
 <SHOPITEM>
@@ -94633,7 +95221,7 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1784e0842e3db9e2af53c4e94aff60fe.jpg?v=1794046351</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8a905e566948c3ee235e3248b16f4b39.jpg?v=1794046353</IMGURL_ALTERNATIVE>
 <PRICE_VAT>2730.36</PRICE_VAT>
-<MANUFACTURER><![CDATA[MAXMARAWEEKEND]]></MANUFACTURER>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[42]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
@@ -94661,7 +95249,7 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1784e0842e3db9e2af53c4e94aff60fe.jpg?v=1794046351</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8a905e566948c3ee235e3248b16f4b39.jpg?v=1794046353</IMGURL_ALTERNATIVE>
 <PRICE_VAT>2730.36</PRICE_VAT>
-<MANUFACTURER><![CDATA[MAXMARAWEEKEND]]></MANUFACTURER>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
@@ -94689,7 +95277,7 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1784e0842e3db9e2af53c4e94aff60fe.jpg?v=1794046351</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8a905e566948c3ee235e3248b16f4b39.jpg?v=1794046353</IMGURL_ALTERNATIVE>
 <PRICE_VAT>2730.36</PRICE_VAT>
-<MANUFACTURER><![CDATA[MAXMARAWEEKEND]]></MANUFACTURER>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[38]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
@@ -94717,7 +95305,7 @@ Made in Italy]]></DESCRIPTION>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/1784e0842e3db9e2af53c4e94aff60fe.jpg?v=1794046351</IMGURL_ALTERNATIVE>
 <IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/8a905e566948c3ee235e3248b16f4b39.jpg?v=1794046353</IMGURL_ALTERNATIVE>
 <PRICE_VAT>2730.36</PRICE_VAT>
-<MANUFACTURER><![CDATA[MAXMARAWEEKEND]]></MANUFACTURER>
+<MANUFACTURER><![CDATA[MAX MARA WEEKEND]]></MANUFACTURER>
 <CATEGORYTEXT><![CDATA[Glami.pl | Moda damska | Odzież damska | Kurtki i płaszcze damskie | Płaszcze damskie]]></CATEGORYTEXT>
 <PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[40]]></VAL></PARAM>
 <PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
@@ -103218,5 +103806,155 @@ Wear it for formal occasions or even with a more casual look.]]></DESCRIPTION>
 <PARAM><PARAM_NAME>kolor</PARAM_NAME><VAL><![CDATA[zielony]]></VAL></PARAM>
 <DELIVERY_DATE>0</DELIVERY_DATE>
 <EAN>8056308280844</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085366100</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085366100</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[54]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636423</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085398868</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085398868</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[52]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636416</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085431636</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085431636</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[50]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636409</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085464404</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085464404</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[48]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636393</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085497172</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085497172</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[46]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636386</EAN>
+</SHOPITEM>
+<SHOPITEM>
+<ITEM_ID>58302085529940</ITEM_ID>
+<ITEMGROUP_ID>15971402219860</ITEMGROUP_ID>
+<PRODUCTNAME><![CDATA[Autore Hackman Blazer Jacket]]></PRODUCTNAME>
+<DESCRIPTION><![CDATA[Hackman Double-Breasted Jacket Code: 400191B_011 Elegant double-breasted jacket crafted from a refined premium fabric. The style features sophisticated peak lapels, a six-button front fastening with polished metal buttons and practical patch pockets that add a contemporary touch to its classic silhouette. A chest welt pocket completes the design with a discreet, sophisticated sartorial detail. The model is 188 cm tall and wears size 50.
+
+ Made in Italy
+
+ Fit: Regular fit
+
+ Composition: 65% Wool – 29% Polyamide – 5% Cashmere – 1% Elastane]]></DESCRIPTION>
+<URL>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18</URL>
+<URL_SIZE>https://siebentaschen.com/products/autore-hackman-blazer-jacket-18?variant=58302085529940</URL_SIZE>
+<IMGURL>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/hgfdxzxcvb_9896f603-9559-4a21-aeb9-078da42e23e1.jpg?v=1794479876</IMGURL>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-2989038_76e91522-617a-4ef2-b3c4-953793dcb504.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-3243291_e4282691-7f61-4811-9858-ce86d52aa92a.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<IMGURL_ALTERNATIVE>https://cdn.shopify.com/s/files/1/0694/0862/0826/files/giacca-hackman-in-misto-lana-autore-4129194_42c9a98f-a27b-4cc2-b194-7e9d4b8fedf5.jpg?v=1794479876</IMGURL_ALTERNATIVE>
+<PRICE_VAT>2157.86</PRICE_VAT>
+<MANUFACTURER><![CDATA[AUTORE]]></MANUFACTURER>
+<CATEGORYTEXT><![CDATA[Glami.pl | Moda męska | Odzież męska | Kurtki i płaszcze męskie | Kurtki męskie]]></CATEGORYTEXT>
+<PARAM><PARAM_NAME>rozmiar</PARAM_NAME><VAL><![CDATA[44]]></VAL></PARAM>
+<PARAM><PARAM_NAME>size_system</PARAM_NAME><VAL>IT</VAL></PARAM>
+<DELIVERY_DATE>0</DELIVERY_DATE>
+<EAN>3000067636379</EAN>
 </SHOPITEM>
 </SHOP>
