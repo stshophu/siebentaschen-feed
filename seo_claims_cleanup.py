@@ -57,7 +57,9 @@ query One($id: ID!) {
 }
 """
 
-LOCALES_QUERY = "{ shopLocales { locale primary published } currentAppInstallation { accessScopes { handle } } }"
+SCOPES_QUERY = "{ currentAppInstallation { accessScopes { handle } } }"
+LOCALES_QUERY = "{ shopLocales { locale primary published } }"
+DEFAULT_PRIMARY, DEFAULT_LOCALES = "en", ["de", "fr", "it", "ja", "zh-TW"]
 
 PRODUCT_UPDATE = """
 mutation U($p: ProductUpdateInput!) {
@@ -222,10 +224,14 @@ def main() -> int:
         print("SHOPIFY_STORE and SHOPIFY_TOKEN must be set", file=sys.stderr)
         return 2
 
-    meta = gql(store, token, LOCALES_QUERY)
-    locales = [l["locale"] for l in meta["shopLocales"] if not l["primary"]]
-    primary = next(l["locale"] for l in meta["shopLocales"] if l["primary"])
-    scopes = {s["handle"] for s in meta["currentAppInstallation"]["accessScopes"]}
+    try:
+        meta = gql(store, token, LOCALES_QUERY)
+        locales = [l["locale"] for l in meta["shopLocales"] if not l["primary"]]
+        primary = next(l["locale"] for l in meta["shopLocales"] if l["primary"])
+    except RuntimeError:
+        primary, locales = DEFAULT_PRIMARY, DEFAULT_LOCALES
+    scopes = {s["handle"] for s in gql(store, token, SCOPES_QUERY)["currentAppInstallation"]["accessScopes"]}
+    print("Scopes:", ", ".join(sorted(scopes)))
     can_products = "write_products" in scopes
     can_translations = "write_translations" in scopes
     print(f"Primary locale: {primary}; translations: {', '.join(locales)}")
