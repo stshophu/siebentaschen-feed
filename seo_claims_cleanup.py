@@ -213,6 +213,83 @@ def translations_query(locales: list[str]) -> str:
     return LIST_QUERY.replace('translations(locale: "de") { key value locale }', parts)
 
 
+PRODUCTS_QUERY = """
+query P($cursor: String) {
+  products(first: 100, after: $cursor) {
+    pageInfo { hasNextPage endCursor }
+    nodes { id seo { title description } descriptionHtml }
+  }
+}
+"""
+
+
+def run_primary_only(store: str, token: str, primary: str, args) -> int:
+    """Token without read_translations: clean the primary-language SEO texts only."""
+    print("Token has no read_translations scope -> cleaning primary language only "
+          f"({primary}). Add read_translations + write_translations to the app for the rest.")
+    stats: Counter = Counter()
+    errors: list = []
+    shown = 0
+    cursor = None
+    while True:
+        block = gql(store, token, PRODUCTS_QUERY, {"cursor": cursor})["products"]
+        for p in block["nodes"]:
+            stats["products"] += 1
+            if p.get("descriptionHtml") and DETECT.search(p["descriptionHtml"]):
+                stats[f"body_html_with_claim[{primary}]"] += 1
+            seo = p.get("seo") or {}
+            upd = {}
+            d_old = seo.get("description")
+            d_new = clean(d_old, primary)
+            if d_old and d_new != d_old:
+                upd["description"] = d_new
+                stats[f"meta_description[{primary}]"] += 1
+            if args.fix_brand:
+                t_old = seo.get("title")
+                t_new = fix_brand(t_old)
+                if t_old and t_new != t_old:
+                    upd["title"] = t_new
+                    stats[f"meta_title[{primary}]"] += 1
+            if d_old and DETECT.search(d_new or ""):
+                stats["still_has_claim_after_cleaning"] += 1
+                if stats["still_has_claim_after_cleaning"] <= 5:
+                    print(f"  ! unhandled: {d_new}")
+            if not upd:
+                continue
+            stats["products_changed"] += 1
+            if shown < 12:
+                print(f"\n{p['id']}")
+                for k, v in upd.items():
+                    print(f"  - {seo.get(k)}\n  + {v}")
+                shown += 1
+            if args.apply:
+                try:
+                    res = gql(store, token, PRODUCT_UPDATE, {"p": {"id": p["id"], "seo": upd}})["productUpdate"]
+                    if res["userErrors"]:
+                        errors.append((p["id"], res["userErrors"]))
+                    else:
+                        stats["written"] += 1
+                    time.sleep(0.2)
+                except Exception as exc:
+                    errors.append((p["id"], str(exc)[:300]))
+            if args.limit and stats["products_changed"] >= args.limit:
+                break
+        if (args.limit and stats["products_changed"] >= args.limit) or not block["pageInfo"]["hasNextPage"]:
+            break
+        cursor = block["pageInfo"]["endCursor"]
+        time.sleep(0.3)
+    print("\n--- Summary ---")
+    for k in sorted(stats):
+        print(f"  {k}: {stats[k]}")
+    if errors:
+        print(f"\n{len(errors)} errors, first ones:")
+        for e in errors[:10]:
+            print("  ", e)
+    if not args.apply:
+        print("\n(dry run — nothing written; rerun with --apply)")
+    return 1 if errors else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="write to Shopify (default: dry run)")
@@ -236,6 +313,11 @@ def main() -> int:
     can_translations = "write_translations" in scopes
     print(f"Primary locale: {primary}; translations: {', '.join(locales)}")
     print(f"Token scopes: write_products={can_products} write_translations={can_translations}")
+    if "read_translations" not in scopes:
+        if args.apply and not can_products:
+            print("Token lacks write_products — cannot apply.", file=sys.stderr)
+            return 2
+        return run_primary_only(store, token, primary, args)
     if args.apply and not can_products:
         print("Token lacks write_products — cannot apply.", file=sys.stderr)
         return 2
