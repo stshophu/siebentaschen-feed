@@ -1,0 +1,40 @@
+name: SEO claims cleanup (remove "authentic")
+
+# Manual only: Actions tab -> "SEO claims cleanup" -> Run workflow.
+# First run with "apply" off to see samples and counts, then with "apply" on.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write the cleaned SEO texts to Shopify (off = dry run)"
+        type: boolean
+        default: false
+      fix_brand:
+        description: "Also fix mistranslated '| Siebentaschen' in SEO titles"
+        type: boolean
+        default: true
+
+concurrency:
+  group: seo-claims
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Clean SEO descriptions
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE_DOMAIN || secrets.SHOPIFY_STORE }}
+          # Needs write_products + write_translations for --apply.
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_WRITE_TOKEN || secrets.SHOPIFY_ADMIN_TOKEN || secrets.SHOPIFY_TOKEN }}
+        run: |
+          ARGS=""
+          [ "${{ inputs.apply }}" = "true" ] && ARGS="$ARGS --apply"
+          [ "${{ inputs.fix_brand }}" = "true" ] && ARGS="$ARGS --fix-brand"
+          python seo_claims_cleanup.py $ARGS
