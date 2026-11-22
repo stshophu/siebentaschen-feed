@@ -36,7 +36,7 @@ from collections import defaultdict
 import requests
 
 API_VERSION = "2025-07"
-COLLECTION_HANDLE = "black-friday"
+COLLECTION_ID = "gid://shopify/Collection/734094295380"  # "black-friday"
 TAG = "bf-exclude"
 CSV_PATH = "siebentaschen_product_feed.csv"
 TOLERANCE = 1.01
@@ -62,8 +62,8 @@ def gql(store, token, query, variables=None):
 
 
 COLLECTION_Q = """
-query C($handle: String!, $cursor: String) {
-  collectionByHandle(handle: $handle) {
+query C($id: ID!, $cursor: String) {
+  collection(id: $id) {
     id title
     ruleSet { appliedDisjunctively rules { column relation condition } }
     products(first: 100, after: $cursor) {
@@ -121,7 +121,7 @@ def main() -> int:
 
     products, collection, cursor = [], None, None
     while True:
-        c = gql(store, token, COLLECTION_Q, {"handle": COLLECTION_HANDLE, "cursor": cursor})["collectionByHandle"]
+        c = gql(store, token, COLLECTION_Q, {"id": COLLECTION_ID, "cursor": cursor})["collection"]
         collection = collection or c
         products += c["products"]["nodes"]
         if not c["products"]["pageInfo"]["hasNextPage"]:
