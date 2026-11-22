@@ -35,7 +35,7 @@ from collections import defaultdict
 
 import requests
 
-API_VERSION = "2025-07"
+API_VERSION = "2026-10"
 COLLECTION_ID = "gid://shopify/Collection/734094295380"  # "black-friday"
 TAG = "bf-exclude"
 CSV_PATH = "siebentaschen_product_feed.csv"
@@ -122,6 +122,9 @@ def main() -> int:
     products, collection, cursor = [], None, None
     while True:
         c = gql(store, token, COLLECTION_Q, {"id": COLLECTION_ID, "cursor": cursor})["collection"]
+        if c is None:
+            print("Collection not visible to this token/API version", file=sys.stderr)
+            return 2
         collection = collection or c
         products += c["products"]["nodes"]
         if not c["products"]["pageInfo"]["hasNextPage"]:
