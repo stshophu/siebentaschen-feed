@@ -1,0 +1,39 @@
+name: Black Friday price check (30-day low)
+
+# Manual only. Off = dry run (counts + examples). On = tag products whose
+# price went up in the last 30 days with bf-exclude and drop them from the
+# Black Friday collection.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Remove not-clean products from the Black Friday collection"
+        type: boolean
+        default: false
+
+concurrency:
+  group: bf-price-check
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Fetch price history
+        run: git fetch --shallow-since=2026-10-15 origin ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Check prices
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE_DOMAIN || secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_WRITE_TOKEN || secrets.SHOPIFY_ADMIN_TOKEN || secrets.SHOPIFY_TOKEN }}
+        run: |
+          ARGS=""
+          [ "${{ inputs.apply }}" = "true" ] && ARGS="--apply"
+          python bf_price_check.py $ARGS
