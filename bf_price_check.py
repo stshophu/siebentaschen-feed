@@ -169,8 +169,11 @@ def main() -> int:
         print(f"\n(dry run — would tag {len(exclude)} products '{TAG}' and add the rule TAG NOT_EQUALS {TAG})")
         return 0
 
-    rules = collection["ruleSet"]["rules"]
-    if not any(r["column"] == "TAG" and r["relation"] == "NOT_EQUALS" and r["condition"] == TAG for r in rules):
+    rules = (collection["ruleSet"] or {}).get("rules")
+    if rules is None:
+        print("Collection uses the new conditions format — add the exclusion "
+              f"'tagged with {TAG}' to its conditions separately.")
+    elif not any(r["column"] == "TAG" and r["relation"] == "NOT_EQUALS" and r["condition"] == TAG for r in rules):
         if collection["ruleSet"]["appliedDisjunctively"]:
             print("Collection uses ANY-rules; an exclusion rule would not work. Stopping.", file=sys.stderr)
             return 2
